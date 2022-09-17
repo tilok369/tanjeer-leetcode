@@ -106,36 +106,47 @@ using LeetCode;
 //Console.WriteLine(ReverseInteger.Reverse(11234456));
 //Console.WriteLine(ReverseInteger.Reverse(1534236469));
 
-Console.WriteLine("Add Two Numbers:");
+//Console.WriteLine("Add Two Numbers:");
 
-var i3 = new ListNode(3);
-var i2 = new ListNode(4, i3);
-var i1 = new ListNode(2, i2);
+//var i3 = new ListNode(3);
+//var i2 = new ListNode(4, i3);
+//var i1 = new ListNode(2, i2);
 
-var j3 = new ListNode(4);
-var j2 = new ListNode(6, j3);
-var j1 = new ListNode(5, j2);
+//var j3 = new ListNode(4);
+//var j2 = new ListNode(6, j3);
+//var j1 = new ListNode(5, j2);
 
-PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(i1, j1));
-Console.WriteLine();
-var k1 = new ListNode(0);
-var l1 = new ListNode(0);
+//PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(i1, j1));
+//Console.WriteLine();
+//var k1 = new ListNode(0);
+//var l1 = new ListNode(0);
 
-PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(k1, l1));
-Console.WriteLine();
-var m7 = new ListNode(9);
-var m6 = new ListNode(9, m7);
-var m5 = new ListNode(9, m6);
-var m4 = new ListNode(9, m5);
-var m3 = new ListNode(9, m4);
-var m2 = new ListNode(9, m3);
-var m1 = new ListNode(9, m2);
+//PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(k1, l1));
+//Console.WriteLine();
+//var m7 = new ListNode(9);
+//var m6 = new ListNode(9, m7);
+//var m5 = new ListNode(9, m6);
+//var m4 = new ListNode(9, m5);
+//var m3 = new ListNode(9, m4);
+//var m2 = new ListNode(9, m3);
+//var m1 = new ListNode(9, m2);
 
-var n4 = new ListNode(9);
-var n3 = new ListNode(9, n4);
-var n2 = new ListNode(9, n3);
-var n1 = new ListNode(9, n2);
+//var n4 = new ListNode(9);
+//var n3 = new ListNode(9, n4);
+//var n2 = new ListNode(9, n3);
+//var n1 = new ListNode(9, n2);
 
-PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(m1, n1));
-Console.WriteLine();
+//PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(m1, n1));
+//Console.WriteLine();
+
+Console.WriteLine("Longest Substring Without Repeating Characters: ");
+Console.WriteLine(Strings.LengthOfLongestSubstring("abcabcbb"));
+Console.WriteLine(Strings.LengthOfLongestSubstring("bbbbb"));
+Console.WriteLine(Strings.LengthOfLongestSubstring("pwwkew"));
+Console.WriteLine(Strings.LengthOfLongestSubstring("aaabbaaaababa"));
+Console.WriteLine(Strings.LengthOfLongestSubstring("abssbwertdsa"));
+Console.WriteLine(Strings.LengthOfLongestSubstring("ab v45#$gt"));
+Console.WriteLine(Strings.LengthOfLongestSubstring("ababcde"));
+Console.WriteLine(Strings.LengthOfLongestSubstring("123456"));
+
 Console.ReadKey(true);
