@@ -139,14 +139,27 @@ using LeetCode;
 //PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(m1, n1));
 //Console.WriteLine();
 
-Console.WriteLine("Longest Substring Without Repeating Characters: ");
-Console.WriteLine(Strings.LengthOfLongestSubstring("abcabcbb"));
-Console.WriteLine(Strings.LengthOfLongestSubstring("bbbbb"));
-Console.WriteLine(Strings.LengthOfLongestSubstring("pwwkew"));
-Console.WriteLine(Strings.LengthOfLongestSubstring("aaabbaaaababa"));
-Console.WriteLine(Strings.LengthOfLongestSubstring("abssbwertdsa"));
-Console.WriteLine(Strings.LengthOfLongestSubstring("ab v45#$gt"));
-Console.WriteLine(Strings.LengthOfLongestSubstring("ababcde"));
-Console.WriteLine(Strings.LengthOfLongestSubstring("123456"));
+//Console.WriteLine("Longest Substring Without Repeating Characters: ");
+//Console.WriteLine(Strings.LengthOfLongestSubstring("abcabcbb"));
+//Console.WriteLine(Strings.LengthOfLongestSubstring("bbbbb"));
+//Console.WriteLine(Strings.LengthOfLongestSubstring("pwwkew"));
+//Console.WriteLine(Strings.LengthOfLongestSubstring("aaabbaaaababa"));
+//Console.WriteLine(Strings.LengthOfLongestSubstring("abssbwertdsa"));
+//Console.WriteLine(Strings.LengthOfLongestSubstring("ab v45#$gt"));
+//Console.WriteLine(Strings.LengthOfLongestSubstring("ababcde"));
+//Console.WriteLine(Strings.LengthOfLongestSubstring("123456"));
+
+Console.WriteLine("AtoI: ");
+Console.WriteLine(AtoI.MyAtoi("42"));
+Console.WriteLine(AtoI.MyAtoi("   -42"));
+Console.WriteLine(AtoI.MyAtoi("4193 with words"));
+Console.WriteLine(AtoI.MyAtoi("12345678900"));
+Console.WriteLine(AtoI.MyAtoi("-12345678900"));
+Console.WriteLine(AtoI.MyAtoi("-+12"));
+Console.WriteLine(AtoI.MyAtoi("+-12"));
+Console.WriteLine(AtoI.MyAtoi("0012"));
+Console.WriteLine(AtoI.MyAtoi(""));
+Console.WriteLine(AtoI.MyAtoi(" "));
+Console.WriteLine(AtoI.MyAtoi("9223372036854775808"));
 
 Console.ReadKey(true);
