@@ -162,7 +162,7 @@ using LeetCode;
 //Console.WriteLine(AtoI.MyAtoi(" "));
 //Console.WriteLine(AtoI.MyAtoi("9223372036854775808"));
 
-Console.WriteLine("Palindromic Subsequence: ");
+//Console.WriteLine("Palindromic Subsequence: ");
 //Console.WriteLine(Palindrom.IsPalindrom("aba"));
 //Console.WriteLine(Palindrom.IsPalindrom("bb"));
 //Console.WriteLine(Palindrom.IsPalindrom("abcva"));
@@ -172,5 +172,21 @@ Console.WriteLine("Palindromic Subsequence: ");
 //Console.WriteLine(Palindrom.LongestPalindrome("bbbbbbbbbb"));
 //Console.WriteLine(Palindrom.LongestPalindrome("abc"));
 //Console.WriteLine(Palindrom.LongestPalindrome("abcbabbcbbab"));
+
+//Console.WriteLine(Palindrom.LongestPalindrome2("babad"));
+//Console.WriteLine(Palindrom.LongestPalindrome2("cbbd"));
+//Console.WriteLine(Palindrom.LongestPalindrome2("b"));
+//Console.WriteLine(Palindrom.LongestPalindrome2("bbbbbbbbbb"));
+//Console.WriteLine(Palindrom.LongestPalindrome2("abc"));
+//Console.WriteLine(Palindrom.LongestPalindrome2("abcbabbcbbab"));
+
+Console.WriteLine("Palindrom: ");
+Console.WriteLine(Palindrom.IsPalindrome(121));
+Console.WriteLine(Palindrom.IsPalindrome(-121));
+Console.WriteLine(Palindrom.IsPalindrome(10));
+Console.WriteLine(Palindrom.IsPalindrome(10101));
+Console.WriteLine(Palindrom.IsPalindrome(10101010));
+Console.WriteLine(Palindrom.IsPalindrome(0));
+Console.WriteLine(Palindrom.IsPalindrome(-10101));
 
 Console.ReadKey(true);
