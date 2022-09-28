@@ -180,13 +180,27 @@ using LeetCode;
 //Console.WriteLine(Palindrom.LongestPalindrome2("abc"));
 //Console.WriteLine(Palindrom.LongestPalindrome2("abcbabbcbbab"));
 
-Console.WriteLine("Palindrom: ");
-Console.WriteLine(Palindrom.IsPalindrome(121));
-Console.WriteLine(Palindrom.IsPalindrome(-121));
-Console.WriteLine(Palindrom.IsPalindrome(10));
-Console.WriteLine(Palindrom.IsPalindrome(10101));
-Console.WriteLine(Palindrom.IsPalindrome(10101010));
-Console.WriteLine(Palindrom.IsPalindrome(0));
-Console.WriteLine(Palindrom.IsPalindrome(-10101));
+//Console.WriteLine("Palindrom: ");
+//Console.WriteLine(Palindrom.IsPalindrome(121));
+//Console.WriteLine(Palindrom.IsPalindrome(-121));
+//Console.WriteLine(Palindrom.IsPalindrome(10));
+//Console.WriteLine(Palindrom.IsPalindrome(10101));
+//Console.WriteLine(Palindrom.IsPalindrome(10101010));
+//Console.WriteLine(Palindrom.IsPalindrome(0));
+//Console.WriteLine(Palindrom.IsPalindrome(-10101));
+
+//Console.WriteLine("Longest Common Prefix: ");
+//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "flower", "flow", "flight" }));
+//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "dog", "racecar", "car" }));
+//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "dog", "dogger", "doggest" }));
+//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "", "dogger", "doggest" }));
+
+Console.WriteLine("Valid Parantheses: ");
+//Console.WriteLine(Parantheses.IsValid("()"));
+//Console.WriteLine(Parantheses.IsValid("()[]{}"));
+//Console.WriteLine(Parantheses.IsValid("(]"));
+//Console.WriteLine(Parantheses.IsValid("[{()()}()][]"));
+//Console.WriteLine(Parantheses.IsValid("[{()()}()[]"));
+Console.WriteLine(Parantheses.IsValid("]"));
 
 Console.ReadKey(true);
