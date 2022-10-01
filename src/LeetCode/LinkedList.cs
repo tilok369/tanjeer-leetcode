@@ -2,13 +2,14 @@
 namespace LeetCode;
 public class LinkedList
 {
-    public ListNode MergeTwoLists(ListNode list1, ListNode list2)
+    public static ListNode MergeTwoLists(ListNode list1, ListNode list2)
     {
         var node1 = list1;
         var node2 = list2;
         var merged = new ListNode();
+        var head = merged;
 
-        while (node1 != null && node2 != null)
+        while (node1 != null || node2 != null)
         {
             if (node1 == null)
             {
@@ -30,8 +31,9 @@ public class LinkedList
                 merged.next = new ListNode(node2.val);
                 node2 = node2.next;
             }
+            merged = merged.next;
         }
 
-        return merged.next;
+        return head.next;
     }
 }

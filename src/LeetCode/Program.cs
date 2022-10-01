@@ -195,7 +195,7 @@ using LeetCode;
 //Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "dog", "dogger", "doggest" }));
 //Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "", "dogger", "doggest" }));
 
-Console.WriteLine("Valid Parantheses: ");
+//Console.WriteLine("Valid Parantheses: ");
 //Console.WriteLine(Parantheses.IsValid("()"));
 //Console.WriteLine(Parantheses.IsValid("()[]{}"));
 //Console.WriteLine(Parantheses.IsValid("(]"));
@@ -203,8 +203,24 @@ Console.WriteLine("Valid Parantheses: ");
 //Console.WriteLine(Parantheses.IsValid("[{()()}()[]"));
 //Console.WriteLine(Parantheses.IsValid("]"));
 
-Console.WriteLine("Container With Most Water: ");
-Console.WriteLine(Container.MaxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
-Console.WriteLine(Container.MaxArea(new int[] { 1, 1 }));
+//Console.WriteLine("Container With Most Water: ");
+//Console.WriteLine(Container.MaxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
+//Console.WriteLine(Container.MaxArea(new int[] { 1, 1 }));
+
+Console.WriteLine("Merge Two Sorted Lists: ");
+
+var list13 = new ListNode(4, null);
+var list12 = new ListNode(2, list13);
+var list1 = new ListNode(1, list12);
+
+var list23 = new ListNode(4, null);
+var list21 = new ListNode(3, list23);
+var list2 = new ListNode(1, list21);
+PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list1, list2));
+Console.WriteLine();
+var list3 = new ListNode(0, null);
+PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list3, null));
+Console.WriteLine();
+PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(null, null));
 
 Console.ReadKey(true);
