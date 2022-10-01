@@ -201,6 +201,10 @@ Console.WriteLine("Valid Parantheses: ");
 //Console.WriteLine(Parantheses.IsValid("(]"));
 //Console.WriteLine(Parantheses.IsValid("[{()()}()][]"));
 //Console.WriteLine(Parantheses.IsValid("[{()()}()[]"));
-Console.WriteLine(Parantheses.IsValid("]"));
+//Console.WriteLine(Parantheses.IsValid("]"));
+
+Console.WriteLine("Container With Most Water: ");
+Console.WriteLine(Container.MaxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
+Console.WriteLine(Container.MaxArea(new int[] { 1, 1 }));
 
 Console.ReadKey(true);
