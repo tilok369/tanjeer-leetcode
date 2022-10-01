@@ -207,20 +207,37 @@ using LeetCode;
 //Console.WriteLine(Container.MaxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
 //Console.WriteLine(Container.MaxArea(new int[] { 1, 1 }));
 
-Console.WriteLine("Merge Two Sorted Lists: ");
+//Console.WriteLine("Merge Two Sorted Lists: ");
 
-var list13 = new ListNode(4, null);
-var list12 = new ListNode(2, list13);
-var list1 = new ListNode(1, list12);
+//var list13 = new ListNode(4, null);
+//var list12 = new ListNode(2, list13);
+//var list1 = new ListNode(1, list12);
 
-var list23 = new ListNode(4, null);
-var list21 = new ListNode(3, list23);
-var list2 = new ListNode(1, list21);
-PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list1, list2));
-Console.WriteLine();
-var list3 = new ListNode(0, null);
-PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list3, null));
-Console.WriteLine();
-PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(null, null));
+//var list23 = new ListNode(4, null);
+//var list21 = new ListNode(3, list23);
+//var list2 = new ListNode(1, list21);
+//PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list1, list2));
+//Console.WriteLine();
+//var list3 = new ListNode(0, null);
+//PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list3, null));
+//Console.WriteLine();
+//PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(null, null));
+
+//Console.WriteLine("Letter Combinations of a Phone Number: ");
+//Console.WriteLine(string.Join(",", Strings.LetterCombinations("23")));
+//Console.WriteLine(string.Join(",", Strings.LetterCombinations("")));
+//Console.WriteLine(string.Join(",", Strings.LetterCombinations("2")));
+//Console.WriteLine(string.Join(",", Strings.LetterCombinations("234")));
+
+//Console.WriteLine("Remove Duplicates from Sorted Array: ");
+//Console.WriteLine(Arrays.RemoveDuplicates(new[] { 1, 1, 2 }));
+//Console.WriteLine(Arrays.RemoveDuplicates(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }));
+//Console.WriteLine(Arrays.RemoveDuplicates(new[] { 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5 }));
+
+Console.WriteLine("Remove Duplicates from Sorted Array: ");
+Console.WriteLine(Arrays.RemoveElement(new[] { 3, 2, 2, 3 }, 3));
+Console.WriteLine(Arrays.RemoveElement(new[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2));
+Console.WriteLine(Arrays.RemoveElement(new[] { 2, 2, 2 }, 2));
+Console.WriteLine(Arrays.RemoveElement(new[] { 0, 1, 1, 6, 3, 0, 4, 5 }, 2));
 
 Console.ReadKey(true);
