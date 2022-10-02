@@ -103,4 +103,32 @@ public class Strings
             result.Remove(result.Length - 1, 1);
         }
     }
+
+    public static int StrStr(string haystack, string needle)
+    {
+        if(haystack.Length < needle.Length)
+            return -1;
+        var j = 0;
+        var index = -1;
+        for (int i = 0; i < haystack.Length; i++)
+        {
+            if (haystack[i] == needle[j])
+            {               
+                if (j == 0)
+                    index = i;
+                if (j == needle.Length - 1)
+                    return index;
+                j++;
+            }
+            else
+            {
+                if(j > 0)
+                    i -= j;
+                j = 0;
+                index = -1;
+            }
+        }
+
+        return j == needle.Length ? index : -1;
+    }
 }
