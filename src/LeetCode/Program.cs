@@ -240,16 +240,22 @@ using LeetCode;
 //Console.WriteLine(Arrays.RemoveElement(new[] { 2, 2, 2 }, 2));
 //Console.WriteLine(Arrays.RemoveElement(new[] { 0, 1, 1, 6, 3, 0, 4, 5 }, 2));
 
-Console.WriteLine("Find the Index of the First Occurrence in a String: ");
-Console.WriteLine(Strings.StrStr("sadbutsad", "sad"));
-Console.WriteLine(Strings.StrStr("leetcode", "leeto"));
-Console.WriteLine(Strings.StrStr("leetcode", "leetcode"));
-Console.WriteLine(Strings.StrStr("qweqwesadbutsad", "sad"));
-Console.WriteLine(Strings.StrStr("aaa", "aaaa"));
-Console.WriteLine(Strings.StrStr("mississippi", "issip"));
-Console.WriteLine(Strings.StrStr("mississippi", "issi"));
-Console.WriteLine(Strings.StrStr("mississippi", "issipi"));
-Console.WriteLine(Strings.StrStr("mississippi", "pi"));
-Console.WriteLine(Strings.StrStr("mississippi", "sippia"));
+//Console.WriteLine("Find the Index of the First Occurrence in a String: ");
+//Console.WriteLine(Strings.StrStr("sadbutsad", "sad"));
+//Console.WriteLine(Strings.StrStr("leetcode", "leeto"));
+//Console.WriteLine(Strings.StrStr("leetcode", "leetcode"));
+//Console.WriteLine(Strings.StrStr("qweqwesadbutsad", "sad"));
+//Console.WriteLine(Strings.StrStr("aaa", "aaaa"));
+//Console.WriteLine(Strings.StrStr("mississippi", "issip"));
+//Console.WriteLine(Strings.StrStr("mississippi", "issi"));
+//Console.WriteLine(Strings.StrStr("mississippi", "issipi"));
+//Console.WriteLine(Strings.StrStr("mississippi", "pi"));
+//Console.WriteLine(Strings.StrStr("mississippi", "sippia"));
+
+Console.WriteLine("Search Insert Position: ");
+Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 5));
+Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 2));
+Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 7));
+Console.WriteLine(Arrays.SearchInsert(new int[] { 2, 3, 5, 6 }, 1));
 
 Console.ReadKey(true);

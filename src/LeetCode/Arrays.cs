@@ -55,4 +55,16 @@ public class Arrays
         Console.WriteLine(string.Join(",", nums));
         return j;
     }
+
+    public static int SearchInsert(int[] nums, int target)
+    {
+        var i = 0;
+        for (i = 0; i < nums.Length; i++)
+        {
+            if (nums[i] == target || nums[i] > target)
+                return i;
+        }
+
+        return i;
+    }
 }
