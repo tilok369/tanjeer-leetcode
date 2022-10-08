@@ -87,4 +87,59 @@ public class Summation
 
         return triplets;
     }
+
+    public static int ThreeSumClosest(int[] nums, int target)
+    {
+        //if(nums.Length < 3)
+        //    return 0;
+        //var closest = int.MaxValue;
+        //var sum = 0;
+        //Array.Sort(nums);
+        //for (int i = 0; i < nums.Length - 2; i++)
+        //{
+        //    var f = nums[i];
+        //    var s = nums[i + 1];
+        //    for (int j = i + 2; j < nums.Length; j++)
+        //    {
+        //        var tempSum = (f + s + nums[j]);
+        //        if (Math.Abs(target - tempSum) < closest)
+        //        { 
+        //            closest = Math.Abs(target - tempSum);
+        //            sum = tempSum;
+        //        }
+        //    }
+        //}
+
+        //return sum;
+
+        if (nums == null || nums.Length < 3)
+            return int.MaxValue;
+
+        Array.Sort(nums);
+
+        var closest = int.MaxValue;
+        var sum = 0;
+        for (int i = 0; i < nums.Length; i++)
+        {
+            var second = i + 1;
+            var last = nums.Length - 1;
+
+            while (second < last)
+            {
+                var tempSum = nums[i] + nums[second] + nums[last];
+                var diff = Math.Abs(target - tempSum);
+                if (diff < Math.Abs(closest))
+                {
+                    closest = tempSum - target;
+                    sum = tempSum;
+                }
+                if (tempSum >= target)
+                    last--;
+                else if (tempSum < target)
+                    second++;
+            }
+        }
+
+        return sum;
+    }
 }

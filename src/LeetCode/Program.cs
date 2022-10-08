@@ -252,10 +252,28 @@ using LeetCode;
 //Console.WriteLine(Strings.StrStr("mississippi", "pi"));
 //Console.WriteLine(Strings.StrStr("mississippi", "sippia"));
 
-Console.WriteLine("Search Insert Position: ");
-Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 5));
-Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 2));
-Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 7));
-Console.WriteLine(Arrays.SearchInsert(new int[] { 2, 3, 5, 6 }, 1));
+//Console.WriteLine("Search Insert Position: ");
+//Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 5));
+//Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 2));
+//Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 7));
+//Console.WriteLine(Arrays.SearchInsert(new int[] { 2, 3, 5, 6 }, 1));
+
+//Console.WriteLine("Divide Two Integers: ");
+//Console.WriteLine(Maths.Divide(10, 3));
+//Console.WriteLine(Maths.Divide(7, -3));
+//Console.WriteLine(Maths.Divide(33, 2));
+
+//Console.WriteLine("Divide Two Integers: ");
+//Console.WriteLine(Searches.Search(new int[] { 4, 5, 6, 7, 0, 1, 2 }, 0));
+//Console.WriteLine(Searches.Search(new int[] { 4, 5, 6, 7, 0, 1, 2 }, 3));
+//Console.WriteLine(Searches.Search(new int[] { 1 }, 0));
+
+Console.WriteLine("3Sum Closest: ");
+Console.WriteLine(Summation.ThreeSumClosest(new int[] { -1, 2, 1, -4 }, 1));
+Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 0, 0 }, 1));
+Console.WriteLine(Summation.ThreeSumClosest(new int[] { -2, 0, 3, 6, 7 }, 4));
+Console.WriteLine(Summation.ThreeSumClosest(new int[] { 3, 6, 7, -2, 6, 0 }, 4));
+Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 3, 6, 7, -2, 6 }, 4));
+Console.WriteLine(Summation.ThreeSumClosest(new int[] { 4, 0, 5, -5, 3, 3, 0, -4, -5 }, -2));
 
 Console.ReadKey(true);
