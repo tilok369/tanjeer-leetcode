@@ -268,12 +268,17 @@ using LeetCode;
 //Console.WriteLine(Searches.Search(new int[] { 4, 5, 6, 7, 0, 1, 2 }, 3));
 //Console.WriteLine(Searches.Search(new int[] { 1 }, 0));
 
-Console.WriteLine("3Sum Closest: ");
-Console.WriteLine(Summation.ThreeSumClosest(new int[] { -1, 2, 1, -4 }, 1));
-Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 0, 0 }, 1));
-Console.WriteLine(Summation.ThreeSumClosest(new int[] { -2, 0, 3, 6, 7 }, 4));
-Console.WriteLine(Summation.ThreeSumClosest(new int[] { 3, 6, 7, -2, 6, 0 }, 4));
-Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 3, 6, 7, -2, 6 }, 4));
-Console.WriteLine(Summation.ThreeSumClosest(new int[] { 4, 0, 5, -5, 3, 3, 0, -4, -5 }, -2));
+//Console.WriteLine("3Sum Closest: ");
+//Console.WriteLine(Summation.ThreeSumClosest(new int[] { -1, 2, 1, -4 }, 1));
+//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 0, 0 }, 1));
+//Console.WriteLine(Summation.ThreeSumClosest(new int[] { -2, 0, 3, 6, 7 }, 4));
+//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 3, 6, 7, -2, 6, 0 }, 4));
+//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 3, 6, 7, -2, 6 }, 4));
+//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 4, 0, 5, -5, 3, 3, 0, -4, -5 }, -2));
+
+Console.WriteLine("Generate Parentheses: ");
+Console.WriteLine("3: " + string.Join(",", Recursions.GenerateParenthesis(3)));
+Console.WriteLine("1: " + string.Join(",", Recursions.GenerateParenthesis(1)));
+Console.WriteLine("4: " + string.Join(",", Recursions.GenerateParenthesis(4)));
 
 Console.ReadKey(true);
