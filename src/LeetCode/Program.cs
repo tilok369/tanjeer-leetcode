@@ -276,9 +276,14 @@ using LeetCode;
 //Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 3, 6, 7, -2, 6 }, 4));
 //Console.WriteLine(Summation.ThreeSumClosest(new int[] { 4, 0, 5, -5, 3, 3, 0, -4, -5 }, -2));
 
+//Console.WriteLine("Generate Parentheses: ");
+//Console.WriteLine("3: " + string.Join(",", Recursions.GenerateParenthesis(3)));
+//Console.WriteLine("1: " + string.Join(",", Recursions.GenerateParenthesis(1)));
+//Console.WriteLine("4: " + string.Join(",", Recursions.GenerateParenthesis(4)));
+
 Console.WriteLine("Generate Parentheses: ");
-Console.WriteLine("3: " + string.Join(",", Recursions.GenerateParenthesis(3)));
-Console.WriteLine("1: " + string.Join(",", Recursions.GenerateParenthesis(1)));
-Console.WriteLine("4: " + string.Join(",", Recursions.GenerateParenthesis(4)));
+//Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 1, 2, 3 })));
+Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 3, 2, 1 })));
+//Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 1, 1, 5 })));
 
 Console.ReadKey(true);
