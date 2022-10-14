@@ -131,4 +131,35 @@ public class Strings
 
         return j == needle.Length ? index : -1;
     }
+
+    //PAHNAPLSIIGYIR
+    //PINALSIGYAHRPI
+    public static string Convert(string s, int numRows)
+    {
+        if(numRows == 1)
+            return s;
+        var sb = new StringBuilder();
+        
+        for (int i = 0; i < numRows; i++)
+        {
+            var index = i;
+            var step = 1;
+            while (index < s.Length)
+            {
+                sb.Append(s[index]);
+                if (i == 0 || i == numRows - 1)
+                    index += (numRows + (numRows - 2)); // 2 edge rows
+                else 
+                {
+                    if (step % 2 == 1)
+                        index += 2 * (numRows - (i + 1));
+                    else
+                        index += 2 * (i);
+                    step++;
+                }
+            }            
+        }
+
+        return sb.ToString();
+    }
 }

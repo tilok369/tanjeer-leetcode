@@ -281,9 +281,16 @@ using LeetCode;
 //Console.WriteLine("1: " + string.Join(",", Recursions.GenerateParenthesis(1)));
 //Console.WriteLine("4: " + string.Join(",", Recursions.GenerateParenthesis(4)));
 
-Console.WriteLine("Generate Parentheses: ");
+//Console.WriteLine("Generate Parentheses: ");
 //Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 1, 2, 3 })));
-Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 3, 2, 1 })));
+//Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 3, 2, 1 })));
 //Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 1, 1, 5 })));
+
+Console.WriteLine("Zigzag Conversion: ");
+//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 3));
+//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 4));
+//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 5));
+//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 6));
+Console.WriteLine(Strings.Convert("PAYPALISHIRING", 2));
 
 Console.ReadKey(true);
