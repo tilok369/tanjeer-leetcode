@@ -286,11 +286,39 @@ using LeetCode;
 //Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 3, 2, 1 })));
 //Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 1, 1, 5 })));
 
-Console.WriteLine("Zigzag Conversion: ");
+//Console.WriteLine("Zigzag Conversion: ");
 //Console.WriteLine(Strings.Convert("PAYPALISHIRING", 3));
 //Console.WriteLine(Strings.Convert("PAYPALISHIRING", 4));
 //Console.WriteLine(Strings.Convert("PAYPALISHIRING", 5));
 //Console.WriteLine(Strings.Convert("PAYPALISHIRING", 6));
-Console.WriteLine(Strings.Convert("PAYPALISHIRING", 2));
+//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 2));
+
+//Console.WriteLine("4sum: ");
+//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 1, 0, -1, 0, -2, 2 }, 0).Select(s => string.Join(",", s))));
+//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 2, 2, 2, 2, 2 }, 8).Select(s => string.Join(",", s))));
+//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 2, 2, 2, 2, 2 }, 5).Select(s => string.Join(",", s))));
+//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 1000000000, 1000000000, 1000000000, 1000000000 }, -294967296).Select(s => string.Join(",", s))));
+
+
+Console.WriteLine("Remove Nth Node From End of List: ");
+//var l5 = new ListNode(5, null);
+//var l4 = new ListNode(4, l5);
+//var l3 = new ListNode(3, l4);
+//var l2 = new ListNode(2, l3);
+//var l1 = new ListNode(1, l2);
+//PalindromeLinkList.PrintList(LinkedList.RemoveNthFromEnd(l1, 2));
+//PalindromeLinkList.PrintList(LinkedList.RemoveNthFromEnd(l5, 1));
+
+
+
+
+Console.WriteLine("Swap Nodes in Pairs: ");
+var l6 = new ListNode(6, null);
+var l5 = new ListNode(5, l6);
+var l4 = new ListNode(4, l5);
+var l3 = new ListNode(3, l4);
+var l2 = new ListNode(2, l3);
+var l1 = new ListNode(1, l2);
+PalindromeLinkList.PrintList(LinkedList.SwapPairs(null));
 
 Console.ReadKey(true);
