@@ -300,7 +300,7 @@ using LeetCode;
 //Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 1000000000, 1000000000, 1000000000, 1000000000 }, -294967296).Select(s => string.Join(",", s))));
 
 
-Console.WriteLine("Remove Nth Node From End of List: ");
+//Console.WriteLine("Remove Nth Node From End of List: ");
 //var l5 = new ListNode(5, null);
 //var l4 = new ListNode(4, l5);
 //var l3 = new ListNode(3, l4);
@@ -312,13 +312,94 @@ Console.WriteLine("Remove Nth Node From End of List: ");
 
 
 
-Console.WriteLine("Swap Nodes in Pairs: ");
-var l6 = new ListNode(6, null);
-var l5 = new ListNode(5, l6);
-var l4 = new ListNode(4, l5);
-var l3 = new ListNode(3, l4);
-var l2 = new ListNode(2, l3);
-var l1 = new ListNode(1, l2);
-PalindromeLinkList.PrintList(LinkedList.SwapPairs(null));
+//Console.WriteLine("Swap Nodes in Pairs: ");
+//var l6 = new ListNode(6, null);
+//var l5 = new ListNode(5, l6);
+//var l4 = new ListNode(4, l5);
+//var l3 = new ListNode(3, l4);
+//var l2 = new ListNode(2, l3);
+//var l1 = new ListNode(1, l2);
+//PalindromeLinkList.PrintList(LinkedList.SwapPairs(null));
+
+//Console.WriteLine("Valid Sudoku: ");
+
+//var board1 = new char[][]
+//    { 
+//        new[] { '5', '3', '.', '.', '7', '.', '.', '.', '.'},
+//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
+//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
+//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
+//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
+//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
+//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
+//        new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5'},
+//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
+//    };
+
+//var board2 = new char[][]
+//    {
+//        new[] { '8', '3', '.', '.', '7', '.', '.', '.', '.'},
+//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
+//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
+//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
+//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
+//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
+//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
+//        new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5'},
+//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
+//    };
+
+//var board3 = new char[][]
+//    {
+//        new[] { '5', '3', '.', '.', '7', '.', '.', '.', '.'},
+//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
+//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
+//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
+//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
+//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
+//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
+//        new[] { '.', '.', '.', '4', '7', '9', '.', '.', '5'},
+//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
+//    };
+
+//var board4 = new char[][]
+//    {
+//        new[] { '1', '3', '.', '.', '7', '.', '.', '.', '.'},
+//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
+//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
+//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
+//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
+//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
+//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
+//        new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5'},
+//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
+//    };
+
+//var board5 = new char[][]
+//    {
+//        new[] { '5', '3', '.', '.', '7', '.', '.', '.', '.'},
+//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
+//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
+//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
+//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
+//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
+//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
+//        new[] { '.', '.', '.', '4', '7', '9', '.', '.', '5'},
+//        new[] { '9', '.', '.', '.', '8', '.', '.', '7', '9'}
+//    };
+
+//Console.WriteLine(Sudoku.IsValidSudoku(board1));
+//Console.WriteLine(Sudoku.IsValidSudoku(board2));
+//Console.WriteLine(Sudoku.IsValidSudoku(board3));
+//Console.WriteLine(Sudoku.IsValidSudoku(board4));
+//Console.WriteLine(Sudoku.IsValidSudoku(board5));
+
+Console.WriteLine("Count And Say: ");
+Console.WriteLine(Recursions.CountAndSay(1));
+Console.WriteLine(Recursions.CountAndSay(2));
+Console.WriteLine(Recursions.CountAndSay(3));
+Console.WriteLine(Recursions.CountAndSay(4));
+Console.WriteLine(Recursions.CountAndSay(5));
+Console.WriteLine(Recursions.CountAndSay(6));
 
 Console.ReadKey(true);

@@ -1,4 +1,6 @@
 ﻿
+using System.Text;
+
 namespace LeetCode;
 
 public class Recursions
@@ -29,5 +31,32 @@ public class Recursions
         {
             Backtracker(paranthesesList, left, right - 1, result + ')');
         }
+    }
+
+    public static string CountAndSay(int n)
+    {
+        if (n == 1) return "1";
+
+        var str = CountAndSay(n - 1);
+
+        return CalculateNext(str);
+    }
+
+    private static string CalculateNext(string str)
+    {
+        var result = new StringBuilder();
+        var pre = 0;
+        for (int i = 0; i < str.Length; i++)
+        {
+            if (str[i] != str[pre])
+            {
+                result.Append(i - pre).Append(str[pre]);
+                pre = i;
+            }
+        }
+
+        result.Append(str.Length - pre).Append(str[pre]);
+
+        return result.ToString();
     }
 }
