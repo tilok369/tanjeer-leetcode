@@ -394,12 +394,26 @@ using LeetCode;
 //Console.WriteLine(Sudoku.IsValidSudoku(board4));
 //Console.WriteLine(Sudoku.IsValidSudoku(board5));
 
-Console.WriteLine("Count And Say: ");
-Console.WriteLine(Recursions.CountAndSay(1));
-Console.WriteLine(Recursions.CountAndSay(2));
-Console.WriteLine(Recursions.CountAndSay(3));
-Console.WriteLine(Recursions.CountAndSay(4));
-Console.WriteLine(Recursions.CountAndSay(5));
-Console.WriteLine(Recursions.CountAndSay(6));
+//Console.WriteLine("Count And Say: ");
+//Console.WriteLine(Recursions.CountAndSay(1));
+//Console.WriteLine(Recursions.CountAndSay(2));
+//Console.WriteLine(Recursions.CountAndSay(3));
+//Console.WriteLine(Recursions.CountAndSay(4));
+//Console.WriteLine(Recursions.CountAndSay(5));
+//Console.WriteLine(Recursions.CountAndSay(6));
+
+//Console.WriteLine("Combination Sum: ");
+//Console.WriteLine(string.Join("|", Recursions.CombinationSum(new int[] { 2, 3, 6, 7 }, 7)
+//    .Select(i=> string.Join(",", i))));
+//Console.WriteLine(string.Join("|", Recursions.CombinationSum(new int[] { 2, 3, 5 }, 8)
+//    .Select(i => string.Join(",", i))));
+//Console.WriteLine(string.Join("|", Recursions.CombinationSum(new int[] { 2 }, 1)
+//    .Select(i => string.Join(",", i))));
+
+Console.WriteLine("Combination Sum ||: ");
+Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 10, 1, 2, 7, 6, 1, 5 }, 8)
+    .Select(i => string.Join(",", i))));
+Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 2, 5, 2, 1, 2 }, 5)
+    .Select(i => string.Join(",", i))));
 
 Console.ReadKey(true);
