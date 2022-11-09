@@ -410,10 +410,17 @@ using LeetCode;
 //Console.WriteLine(string.Join("|", Recursions.CombinationSum(new int[] { 2 }, 1)
 //    .Select(i => string.Join(",", i))));
 
-Console.WriteLine("Combination Sum ||: ");
-Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 10, 1, 2, 7, 6, 1, 5 }, 8)
-    .Select(i => string.Join(",", i))));
-Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 2, 5, 2, 1, 2 }, 5)
-    .Select(i => string.Join(",", i))));
+//Console.WriteLine("Combination Sum ||: ");
+//Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 10, 1, 2, 7, 6, 1, 5 }, 8)
+//    .Select(i => string.Join(",", i))));
+//Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 2, 5, 2, 1, 2 }, 5)
+//    .Select(i => string.Join(",", i))));
+
+Console.WriteLine("Multiply Strings: ");
+//Console.WriteLine(Maths.Multiply("123", "456"));
+//Console.WriteLine(Maths.Multiply("2", "3"));
+//Console.WriteLine(Maths.Multiply("999", "999"));
+//Console.WriteLine(Maths.Multiply("12345", "100"));
+Console.WriteLine(Maths.Multiply("9133", "0"));
 
 Console.ReadKey(true);
