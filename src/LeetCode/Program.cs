@@ -416,11 +416,35 @@ using LeetCode;
 //Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 2, 5, 2, 1, 2 }, 5)
 //    .Select(i => string.Join(",", i))));
 
-Console.WriteLine("Multiply Strings: ");
+//Console.WriteLine("Multiply Strings: ");
 //Console.WriteLine(Maths.Multiply("123", "456"));
 //Console.WriteLine(Maths.Multiply("2", "3"));
 //Console.WriteLine(Maths.Multiply("999", "999"));
 //Console.WriteLine(Maths.Multiply("12345", "100"));
-Console.WriteLine(Maths.Multiply("9133", "0"));
+//Console.WriteLine(Maths.Multiply("9133", "0"));
+
+//Console.WriteLine("Jump Game II: ");
+//Console.WriteLine(Arrays.Jump2(new int[] { 2, 3, 1, 1, 4 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 2, 3, 1, 1, 4, 2, 1 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 2 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 0, 2, 3 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 2, 3, 1 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 1, 3, 1 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 1, 1, 1 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 1, 0, 1 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 1, 1, 2, 1, 1 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 1, 1, 1, 1, 1 }));
+//Console.WriteLine(Arrays.Jump(new int[] { 1, 2, 1, 1, 1 }));
+//Console.WriteLine(Arrays.Jump2(new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 0 }));
+
+//Console.WriteLine("Permutations: ");
+//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 1, 2, 3 }).Select(i => string.Join(",", i))));
+//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 0, 1 }).Select(i => string.Join(",", i))));
+//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 1 }).Select(i => string.Join(",", i))));
+//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 2, 2, 1, 1 }).Select(i => string.Join(",", i))));
+
+Console.WriteLine("Permutations ||: ");
+//Console.WriteLine(string.Join("|", Recursions.PermuteUnique(new int[] { 1, 1, 2 }).Select(i => string.Join(",", i))));
+Console.WriteLine(string.Join("|", Recursions.PermuteUnique(new int[] { 2, 2, 1, 1 }).Select(i => string.Join(",", i))));
 
 Console.ReadKey(true);
