@@ -443,8 +443,21 @@ using LeetCode;
 //Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 1 }).Select(i => string.Join(",", i))));
 //Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 2, 2, 1, 1 }).Select(i => string.Join(",", i))));
 
-Console.WriteLine("Permutations ||: ");
+//Console.WriteLine("Permutations ||: ");
 //Console.WriteLine(string.Join("|", Recursions.PermuteUnique(new int[] { 1, 1, 2 }).Select(i => string.Join(",", i))));
-Console.WriteLine(string.Join("|", Recursions.PermuteUnique(new int[] { 2, 2, 1, 1 }).Select(i => string.Join(",", i))));
+//Console.WriteLine(string.Join("|", Recursions.PermuteUnique(new int[] { 2, 2, 1, 1 }).Select(i => string.Join(",", i))));
+
+//Console.WriteLine("Group Anagrams: ");
+//Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" }).Select(x => string.Join(",", x))));
+//Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "" }).Select(x => string.Join(",", x))));
+//Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "a" }).Select(x => string.Join(",", x))));
+
+Console.WriteLine("Group Anagrams: ");
+//Console.WriteLine(Maths.MyPow(2.0000, 10));
+//Console.WriteLine(Maths.MyPow(2.1000, 3));
+//Console.WriteLine(Maths.MyPow(2.0000, -2));
+Console.WriteLine(Maths.MyPowOpt(2.0000, 10));
+Console.WriteLine(Maths.MyPowOpt(2.1000, 3));
+Console.WriteLine(Maths.MyPowOpt(2.0000, -2));
 
 Console.ReadKey(true);
