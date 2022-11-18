@@ -452,12 +452,46 @@ using LeetCode;
 //Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "" }).Select(x => string.Join(",", x))));
 //Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "a" }).Select(x => string.Join(",", x))));
 
-Console.WriteLine("Group Anagrams: ");
+//Console.WriteLine("Pow(x, n): ");
 //Console.WriteLine(Maths.MyPow(2.0000, 10));
 //Console.WriteLine(Maths.MyPow(2.1000, 3));
 //Console.WriteLine(Maths.MyPow(2.0000, -2));
-Console.WriteLine(Maths.MyPowOpt(2.0000, 10));
-Console.WriteLine(Maths.MyPowOpt(2.1000, 3));
-Console.WriteLine(Maths.MyPowOpt(2.0000, -2));
+//Console.WriteLine(Maths.MyPowOpt(2.0000, 10));
+//Console.WriteLine(Maths.MyPowOpt(2.1000, 3));
+//Console.WriteLine(Maths.MyPowOpt(2.0000, -2));
+
+var mat = new int[][] {
+    new[] { 1, 2, 3 },
+    new[] { 4, 5, 6 },
+    new[] { 7, 8, 9 }
+};
+Console.WriteLine("Pow(x, n): ");
+Matrix.Rotate(mat);
+Console.WriteLine(string.Join("|", mat.Select(c => string.Join(",", c))));
+
+var mat2 = new int[][] {
+    new[] { 5, 1, 9, 11 },
+    new[] { 2, 4, 8, 10 },
+    new[] { 13, 3, 6, 7 },
+    new[] { 15, 14, 12, 16 }
+};
+Console.WriteLine("Pow(x, n): ");
+Matrix.Rotate(mat2);
+Console.WriteLine(string.Join("|", mat2.Select(c => string.Join(",", c))));
+
+var mat3 = new int[][] {
+    new[] { 5, 1 },
+    new[] { 2, 4 }
+};
+Console.WriteLine("Pow(x, n): ");
+Matrix.Rotate(mat3);
+Console.WriteLine(string.Join("|", mat3.Select(c => string.Join(",", c))));
+
+var mat4 = new int[][] {
+    new[] { 5}
+};
+Console.WriteLine("Pow(x, n): ");
+Matrix.Rotate(mat3);
+Console.WriteLine(string.Join("|", mat4.Select(c => string.Join(",", c))));
 
 Console.ReadKey(true);
