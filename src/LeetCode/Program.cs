@@ -460,38 +460,50 @@ using LeetCode;
 //Console.WriteLine(Maths.MyPowOpt(2.1000, 3));
 //Console.WriteLine(Maths.MyPowOpt(2.0000, -2));
 
-var mat = new int[][] {
-    new[] { 1, 2, 3 },
-    new[] { 4, 5, 6 },
-    new[] { 7, 8, 9 }
-};
-Console.WriteLine("Pow(x, n): ");
-Matrix.Rotate(mat);
-Console.WriteLine(string.Join("|", mat.Select(c => string.Join(",", c))));
+//var mat = new int[][] {
+//    new[] { 1, 2, 3 },
+//    new[] { 4, 5, 6 },
+//    new[] { 7, 8, 9 }
+//};
+//Console.WriteLine("Rotate Image: ");
+//Matrix.Rotate(mat);
+//Console.WriteLine(string.Join("|", mat.Select(c => string.Join(",", c))));
 
-var mat2 = new int[][] {
-    new[] { 5, 1, 9, 11 },
-    new[] { 2, 4, 8, 10 },
-    new[] { 13, 3, 6, 7 },
-    new[] { 15, 14, 12, 16 }
-};
-Console.WriteLine("Pow(x, n): ");
-Matrix.Rotate(mat2);
-Console.WriteLine(string.Join("|", mat2.Select(c => string.Join(",", c))));
+//var mat2 = new int[][] {
+//    new[] { 5, 1, 9, 11 },
+//    new[] { 2, 4, 8, 10 },
+//    new[] { 13, 3, 6, 7 },
+//    new[] { 15, 14, 12, 16 }
+//};
+//Console.WriteLine("Rotate Image: ");
+//Matrix.Rotate(mat2);
+//Console.WriteLine(string.Join("|", mat2.Select(c => string.Join(",", c))));
 
-var mat3 = new int[][] {
-    new[] { 5, 1 },
-    new[] { 2, 4 }
-};
-Console.WriteLine("Pow(x, n): ");
-Matrix.Rotate(mat3);
-Console.WriteLine(string.Join("|", mat3.Select(c => string.Join(",", c))));
+//var mat3 = new int[][] {
+//    new[] { 5, 1 },
+//    new[] { 2, 4 }
+//};
+//Console.WriteLine("Rotate Image: ");
+//Matrix.Rotate(mat3);
+//Console.WriteLine(string.Join("|", mat3.Select(c => string.Join(",", c))));
 
-var mat4 = new int[][] {
-    new[] { 5}
-};
-Console.WriteLine("Pow(x, n): ");
-Matrix.Rotate(mat3);
-Console.WriteLine(string.Join("|", mat4.Select(c => string.Join(",", c))));
+//var mat4 = new int[][] {
+//    new[] { 5}
+//};
+//Console.WriteLine("Rotate Image: ");
+//Matrix.Rotate(mat3);
+//Console.WriteLine(string.Join("|", mat4.Select(c => string.Join(",", c))));
+
+//Console.WriteLine("Ugly Number: ");
+//Console.WriteLine(Maths.IsUglyOpt(6));
+//Console.WriteLine(Maths.IsUglyOpt(1));
+//Console.WriteLine(Maths.IsUglyOpt(14));
+//Console.WriteLine(Maths.IsUglyOpt(23));
+//Console.WriteLine(Maths.IsUglyOpt(16));
+//Console.WriteLine(Maths.IsUglyOpt(17));
+//Console.WriteLine(Maths.IsUglyOpt(-2147483648));
+
+Console.WriteLine("Ugly Number ||: ");
+Console.WriteLine(Maths.NthUglyNumber(10));
 
 Console.ReadKey(true);
