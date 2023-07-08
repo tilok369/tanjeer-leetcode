@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
+using LeetCode.SlidingWindow;
 //Console.WriteLine("Roman to Integer:");
 //Console.WriteLine(Roman2Integer.RomanToInt("III"));
 //Console.WriteLine(Roman2Integer.RomanToInt("LVIII"));
@@ -503,7 +504,51 @@ using LeetCode;
 //Console.WriteLine(Maths.IsUglyOpt(17));
 //Console.WriteLine(Maths.IsUglyOpt(-2147483648));
 
-Console.WriteLine("Ugly Number ||: ");
-Console.WriteLine(Maths.NthUglyNumber(10));
+//Console.WriteLine("Ugly Number ||: ");
+//Console.WriteLine(Maths.NthUglyNumber(10));
+
+//Console.WriteLine("আক".Any(c => c >= 0x0980 && c <= 0x09FF));
+//Console.WriteLine("ন".Any(c => c >= 0x0980 && c <= 0x09FF));
+//Console.WriteLine("১".Any(c => c >= 0x0980 && c <= 0x09FF));
+//Console.WriteLine("০".Any(c => c >= 0x0980 && c <= 0x09FF));
+//Console.WriteLine("sdfsd".Any(c => c >= 0x0980 && c <= 0x09FF));
+//Console.WriteLine("A".Any(c => c >= 0x0980 && c <= 0x09FF));
+//Console.WriteLine("!".Any(c => c >= 0x0980 && c <= 0x09FF));
+//Console.WriteLine("F".Any(c => c >= 0x0980 && c <= 0x09FF));
+
+//Console.WriteLine("Longest Substring Without Repeating Characters: ");
+//Console.WriteLine(HashTables.LengthOfLongestSubstring("abcabcbb"));
+//Console.WriteLine(HashTables.LengthOfLongestSubstring("bbbbb"));
+//Console.WriteLine(HashTables.LengthOfLongestSubstring("pwwkew"));
+
+//Console.WriteLine("Repeated DNA Sequences: ");
+//Console.WriteLine(String.Join(",", HashTables.FindRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT")));
+//Console.WriteLine(String.Join(",", HashTables.FindRepeatedDnaSequences("AAAAAAAAAAAAA")));
+//Console.WriteLine(String.Join(",", HashTables.FindRepeatedDnaSequences("CCCCAAAAAGGGTTT")));
+
+//Console.WriteLine("Minimum Size Subarray Sum: ");
+//Console.WriteLine(HashTables.MinSubArrayLen(7, new int[] { 2, 3, 1, 2, 4, 3 }));
+//Console.WriteLine(HashTables.MinSubArrayLen(4, new int[] { 1, 4, 4 }));
+//Console.WriteLine(HashTables.MinSubArrayLen(11, new int[] { 1, 1, 1, 1, 1, 1, 1, 1 }));
+//Console.WriteLine(HashTables.MinSubArrayLen(11, new int[] { 1, 2, 3, 4, 5 }));
+
+//Console.WriteLine(HashTables.MinSubArrayLen2(7, new int[] { 2, 3, 1, 2, 4, 3 }));
+//Console.WriteLine(HashTables.MinSubArrayLen2(4, new int[] { 1, 4, 4 }));
+//Console.WriteLine(HashTables.MinSubArrayLen2(11, new int[] { 1, 1, 1, 1, 1, 1, 1, 1 }));
+//Console.WriteLine(HashTables.MinSubArrayLen2(11, new int[] { 1, 2, 3, 4, 5}));
+
+//Console.WriteLine("Contains Duplicate II: ");
+//Console.WriteLine(HashTables.ContainsNearbyDuplicate(new int[] { 1, 2, 3, 1 }, 3));
+//Console.WriteLine(HashTables.ContainsNearbyDuplicate(new int[] { 1, 0, 1, 1 }, 1));
+//Console.WriteLine(HashTables.ContainsNearbyDuplicate(new int[] { 1, 2, 3, 1, 2, 3 }, 2));
+
+//Console.WriteLine("Maximum consecutive one’s: ");
+//Console.WriteLine(Arrays.MaxConsecutiveOnes(new int[] { 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 }));
+//Console.WriteLine(Arrays.MaxConsecutiveOnes(new int[] { 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1 }));
+//Console.WriteLine(Arrays.MaxConsecutiveOnes(new int[] { 0, 0 }));
+
+Console.WriteLine("Count of sub-strings with equal consecutive 0’s and 1’s: ");
+Console.WriteLine(Arrays.CountSubstring("010011"));
+Console.WriteLine(Arrays.CountSubstring("0001110010"));
 
 Console.ReadKey(true);
