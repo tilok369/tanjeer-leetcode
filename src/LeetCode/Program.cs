@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
+using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
 //Console.WriteLine("Roman to Integer:");
 //Console.WriteLine(Roman2Integer.RomanToInt("III"));
@@ -576,10 +577,22 @@ using LeetCode.SlidingWindow;
 //    6908, 4433, 3077, 2288, 9733, -8067, 3007, 9725, 9669, 1362, -2561, -4225, 5442, -9006, -429, 160, 
 //    -9234, -4444, 3586, -5711, -9506, -79, -4418, -4348, -5891 }, 93));
 
-Console.WriteLine("Find All Anagrams in a String: ");
-Console.WriteLine(String.Join(",", HashTables.FindAnagrams("cbaebabacd", "abc")));
-Console.WriteLine(String.Join(",", HashTables.FindAnagrams("abab", "ab")));
-Console.WriteLine(String.Join(",", HashTables.FindAnagrams("baa", "aa")));
-Console.WriteLine(String.Join(",", HashTables.FindAnagrams("ababababab", "aab")));
+//Console.WriteLine("Find All Anagrams in a String: ");
+//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("cbaebabacd", "abc")));
+//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("abab", "ab")));
+//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("baa", "aa")));
+//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("ababababab", "aab")));
+
+//Console.WriteLine("Find the K-Beauty of a Number: ");
+//Console.WriteLine(StringArrays.DivisorSubstrings(240, 2));
+//Console.WriteLine(StringArrays.DivisorSubstrings(430043, 2));
+//Console.WriteLine(StringArrays.DivisorSubstrings(50000, 3));
+//Console.WriteLine(StringArrays.DivisorSubstrings(500500, 3));
+
+Console.WriteLine("Longest Nice Substring: ");
+Console.WriteLine(StringRecursions.LongestNiceSubstring("YazaAay"));
+Console.WriteLine(StringRecursions.LongestNiceSubstring("abABB"));
+Console.WriteLine(StringRecursions.LongestNiceSubstring("Bb"));
+Console.WriteLine(StringRecursions.LongestNiceSubstring("c"));
 
 Console.ReadKey(true);

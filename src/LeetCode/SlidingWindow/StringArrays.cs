@@ -182,4 +182,27 @@ public class StringArrays
 
         return nums.Length == k ? currAvg : maxAvg;
     }
+
+    public static int DivisorSubstrings(int num, int k)
+    {
+        var numStr = num.ToString();
+
+        var start = 0;
+        var index = k;
+        var kBeauty = 0;
+        for (int end = 0; end < numStr.Length; end++)
+        {
+            index--;
+            if (index == 0)
+            {
+                var divisor = int.Parse(numStr.Substring(start, k));
+                if(divisor != 0 && num % divisor == 0)
+                    kBeauty++;
+                index++;
+                start++;
+            }
+        }
+
+        return kBeauty;
+    }
 }
