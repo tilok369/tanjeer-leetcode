@@ -230,8 +230,7 @@ public class StringArrays
         {
             if(blocks[end] == 'W')
                 recolorCount++;
-            //else if (blocks[end] == 'B' && start > 0 && recolorCount > 0)
-            //    recolorCount--;
+
             index++;
 
             if (index == k)
