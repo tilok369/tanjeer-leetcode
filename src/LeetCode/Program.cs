@@ -589,10 +589,28 @@ using LeetCode.SlidingWindow;
 //Console.WriteLine(StringArrays.DivisorSubstrings(50000, 3));
 //Console.WriteLine(StringArrays.DivisorSubstrings(500500, 3));
 
-Console.WriteLine("Longest Nice Substring: ");
-Console.WriteLine(StringRecursions.LongestNiceSubstring("YazaAay"));
-Console.WriteLine(StringRecursions.LongestNiceSubstring("abABB"));
-Console.WriteLine(StringRecursions.LongestNiceSubstring("Bb"));
-Console.WriteLine(StringRecursions.LongestNiceSubstring("c"));
+//Console.WriteLine("Longest Nice Substring: ");
+//Console.WriteLine(StringRecursions.LongestNiceSubstring("YazaAay"));
+//Console.WriteLine(StringRecursions.LongestNiceSubstring("abABB"));
+//Console.WriteLine(StringRecursions.LongestNiceSubstring("Bb"));
+//Console.WriteLine(StringRecursions.LongestNiceSubstring("c"));
+
+//Console.WriteLine("Substrings of Size Three with Distinct Characters: ");
+//Console.WriteLine(HashTables.CountGoodSubstrings("xyzzaz"));
+//Console.WriteLine(HashTables.CountGoodSubstrings("aababcabc"));
+
+//Console.WriteLine("Minimum Difference Between Highest and Lowest of K Scores: ");
+//Console.WriteLine(StringArrays.MinimumDifference(new int[] { 90 }, 1));
+//Console.WriteLine(StringArrays.MinimumDifference(new int[] { 9, 4, 1, 7 }, 2));
+
+Console.WriteLine("Minimum Recolors to Get K Consecutive Black Blocks: ");
+Console.WriteLine(StringArrays.MinimumRecolors("WBBWWBBWBW", 7));
+Console.WriteLine(StringArrays.MinimumRecolors("WBWBBBW", 2));
+Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBB", 2));
+Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 8));
+Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 7));
+Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 2));
+Console.WriteLine(StringArrays.MinimumRecolors("BBBWBBBW", 1));
+Console.WriteLine(StringArrays.MinimumRecolors("BBWWBBBW", 2));
 
 Console.ReadKey(true);
