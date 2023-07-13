@@ -603,14 +603,22 @@ using LeetCode.SlidingWindow;
 //Console.WriteLine(StringArrays.MinimumDifference(new int[] { 90 }, 1));
 //Console.WriteLine(StringArrays.MinimumDifference(new int[] { 9, 4, 1, 7 }, 2));
 
+//Console.WriteLine("Minimum Recolors to Get K Consecutive Black Blocks: ");
+//Console.WriteLine(StringArrays.MinimumRecolors("WBBWWBBWBW", 7));
+//Console.WriteLine(StringArrays.MinimumRecolors("WBWBBBW", 2));
+//Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBB", 2));
+//Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 8));
+//Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 7));
+//Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 2));
+//Console.WriteLine(StringArrays.MinimumRecolors("BBBWBBBW", 1));
+//Console.WriteLine(StringArrays.MinimumRecolors("BBWWBBBW", 2));
+
 Console.WriteLine("Minimum Recolors to Get K Consecutive Black Blocks: ");
-Console.WriteLine(StringArrays.MinimumRecolors("WBBWWBBWBW", 7));
-Console.WriteLine(StringArrays.MinimumRecolors("WBWBBBW", 2));
-Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBB", 2));
-Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 8));
-Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 7));
-Console.WriteLine(StringArrays.MinimumRecolors("BBBBBBBW", 2));
-Console.WriteLine(StringArrays.MinimumRecolors("BBBWBBBW", 1));
-Console.WriteLine(StringArrays.MinimumRecolors("BBWWBBBW", 2));
+//Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 3, 2, 5, 4 }, 5));
+//Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 1, 2 }, 2));
+//Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 2, 3, 4, 5 }, 4));
+//Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 2, 3, 4, 5 }, 5));
+//Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 7, 3, 4, 5, 6, 8 }, 6));
+Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 4, 10, 3 }, 10));
 
 Console.ReadKey(true);

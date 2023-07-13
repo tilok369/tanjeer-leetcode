@@ -245,4 +245,35 @@ public class StringArrays
 
         return min;
     }
+
+    public static int LongestAlternatingSubarray(int[] nums, int threshold)
+    {
+        var start = 0;
+        var end = 0;
+        var max = 0;
+        var started = false;
+
+        for (; end < nums.Length; end++)
+        {
+            if (nums[end] % 2 == 0 && nums[end] <= threshold && !started)
+            {
+                start = end;
+                started = true;
+            }
+            else if (started && (nums[end] % 2 != (end - start) % 2 || nums[end] > threshold))
+            {
+                max = Math.Max(max, end - start);
+                started = false;
+                if (nums[end] % 2 == 0 && nums[end] <= threshold)
+                {
+                    start = end;
+                    started = true;
+                }
+            }
+        }
+        if(started)
+            max = Math.Max(max, end - start);
+
+        return max;
+    }
 }
