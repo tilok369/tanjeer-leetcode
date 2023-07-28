@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
+using LeetCode.DFS;
 using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
 //Console.WriteLine("Roman to Integer:");
@@ -613,12 +614,68 @@ using LeetCode.SlidingWindow;
 //Console.WriteLine(StringArrays.MinimumRecolors("BBBWBBBW", 1));
 //Console.WriteLine(StringArrays.MinimumRecolors("BBWWBBBW", 2));
 
-Console.WriteLine("Minimum Recolors to Get K Consecutive Black Blocks: ");
+//Console.WriteLine("Minimum Recolors to Get K Consecutive Black Blocks: ");
 //Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 3, 2, 5, 4 }, 5));
 //Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 1, 2 }, 2));
 //Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 2, 3, 4, 5 }, 4));
 //Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 2, 3, 4, 5 }, 5));
 //Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 7, 3, 4, 5, 6, 8 }, 6));
-Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 4, 10, 3 }, 10));
+//Console.WriteLine(StringArrays.LongestAlternatingSubarray(new int[] { 4, 10, 3 }, 10));
+
+//Console.WriteLine("Maximum Points You Can Obtain from Cards: ");
+//Console.WriteLine(StringArrays.MaxScore(new int[] { 1, 2, 3, 4, 5, 6, 1 }, 3));
+//Console.WriteLine(StringArrays.MaxScore(new int[] { 2, 2, 2 }, 2));
+//Console.WriteLine(StringArrays.MaxScore(new int[] { 9, 7, 7, 9, 7, 7, 9 }, 7));
+//Console.WriteLine(StringArrays.MaxScore(new int[] { 11, 49, 100, 20, 86, 29, 72 }, 4));
+
+//Console.WriteLine("Binary Tree Traversal: ");
+//var tree1 = new TreeNode(1);
+//tree1.left = new TreeNode(2);
+//tree1.right = new TreeNode(3);
+//tree1.left.left = new TreeNode(4);
+//tree1.left.right = new TreeNode(5);
+//Console.WriteLine(string.Join(",", Tree.InorderTraversal(tree1)));
+//Console.WriteLine(string.Join(",", Tree.PreorderTraversal(tree1)));
+//Console.WriteLine(string.Join(",", Tree.PostorderTraversal(tree1)));
+
+//var tree2 = new TreeNode(1);
+//tree2.right = new TreeNode(2);
+//tree2.right.left = new TreeNode(3);
+//Console.WriteLine(string.Join(",", Tree.InorderTraversal(tree2)));
+//Console.WriteLine(string.Join(",", Tree.PreorderTraversal(tree2)));
+//Console.WriteLine(string.Join(",", Tree.PostorderTraversal(tree2)));
+
+//Console.WriteLine("Same Tree: ");
+//var tree1 = new TreeNode(1);
+//tree1.left = new TreeNode(2);
+//tree1.right = new TreeNode(3);
+//var tree2 = new TreeNode(1);
+//tree2.left = new TreeNode(2);
+//tree2.right = new TreeNode(3);
+//Console.WriteLine(Tree.IsSameTree(tree1, tree2));
+
+//var tree3 = new TreeNode(1);
+//tree3.left = new TreeNode(2);
+//var tree4 = new TreeNode(1);
+//tree4.right = new TreeNode(2);
+//Console.WriteLine(Tree.IsSameTree(tree3, tree4));
+
+Console.WriteLine("Symmetric Tree: ");
+var tree1 = new TreeNode(1);
+tree1.left = new TreeNode(2);
+tree1.right = new TreeNode(2);
+tree1.left.left = new TreeNode(3);
+tree1.left.right = new TreeNode(4);
+tree1.right.left = new TreeNode(4);
+tree1.right.right = new TreeNode(3);
+
+var tree2 = new TreeNode(1);
+tree2.left = new TreeNode(2);
+tree2.right = new TreeNode(2);
+tree2.left.right = new TreeNode(3);
+tree2.right.right = new TreeNode(3);
+
+Console.WriteLine(Tree.IsSymmetric(tree1));
+Console.WriteLine(Tree.IsSymmetric(tree2));
 
 Console.ReadKey(true);
