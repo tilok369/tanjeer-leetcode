@@ -2,6 +2,7 @@
 using LeetCode;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
+using LeetCode.DFS._733;
 using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
 //Console.WriteLine("Roman to Integer:");
@@ -679,21 +680,36 @@ using LeetCode.SlidingWindow;
 //Console.WriteLine(Tree.IsSymmetric(tree1));
 //Console.WriteLine(Tree.IsSymmetric(tree2));
 
-Console.WriteLine("200. Number of Islands: ");
-var grid1 = new char[][]{
-    new []{'1', '1', '1', '1', '0' },
-    new []{ '1', '1', '0', '1', '0'},
-    new []{ '1', '1', '0', '0', '0'},
-    new []{ '0', '0', '0', '0', '0'}
-  };
-Console.WriteLine(NumberOfIslands.NumIslands(grid1));
+//Console.WriteLine("200. Number of Islands: ");
+//var grid1 = new char[][]{
+//    new []{'1', '1', '1', '1', '0' },
+//    new []{ '1', '1', '0', '1', '0'},
+//    new []{ '1', '1', '0', '0', '0'},
+//    new []{ '0', '0', '0', '0', '0'}
+//  };
+//Console.WriteLine(NumberOfIslands.NumIslands(grid1));
 
-var grid2 = new char[][]{
-    new []{'1', '1', '0', '0', '0' },
-    new []{ '1', '1', '0', '0', '0'},
-    new []{ '0', '0', '1', '0', '0'},
-    new []{ '0', '0', '0', '1', '1'}
+//var grid2 = new char[][]{
+//    new []{'1', '1', '0', '0', '0' },
+//    new []{ '1', '1', '0', '0', '0'},
+//    new []{ '0', '0', '1', '0', '0'},
+//    new []{ '0', '0', '0', '1', '1'}
+//  };
+//Console.WriteLine(NumberOfIslands.NumIslands(grid2));
+
+Console.WriteLine("733. Flood Fill: ");
+var image1 = new int[][]{
+    new []{1, 1, 1 },
+    new []{ 1, 1, 0},
+    new []{ 1, 0, 1}
   };
-Console.WriteLine(NumberOfIslands.NumIslands(grid2));
+Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image1, 1, 1, 2).Select(i => string.Join(", ", i))));
+
+Console.WriteLine("733. Flood Fill: ");
+var image2 = new int[][]{
+    new []{0, 0, 0 },
+    new []{ 0, 0, 0}
+  };
+Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image2, 0, 0, 0).Select(i => string.Join(", ", i))));
 
 Console.ReadKey(true);
