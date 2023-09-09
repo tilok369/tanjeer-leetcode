@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
 using LeetCode.DFS;
+using LeetCode.DFS._200;
 using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
 //Console.WriteLine("Roman to Integer:");
@@ -660,22 +661,39 @@ using LeetCode.SlidingWindow;
 //tree4.right = new TreeNode(2);
 //Console.WriteLine(Tree.IsSameTree(tree3, tree4));
 
-Console.WriteLine("Symmetric Tree: ");
-var tree1 = new TreeNode(1);
-tree1.left = new TreeNode(2);
-tree1.right = new TreeNode(2);
-tree1.left.left = new TreeNode(3);
-tree1.left.right = new TreeNode(4);
-tree1.right.left = new TreeNode(4);
-tree1.right.right = new TreeNode(3);
+//Console.WriteLine("Symmetric Tree: ");
+//var tree1 = new TreeNode(1);
+//tree1.left = new TreeNode(2);
+//tree1.right = new TreeNode(2);
+//tree1.left.left = new TreeNode(3);
+//tree1.left.right = new TreeNode(4);
+//tree1.right.left = new TreeNode(4);
+//tree1.right.right = new TreeNode(3);
 
-var tree2 = new TreeNode(1);
-tree2.left = new TreeNode(2);
-tree2.right = new TreeNode(2);
-tree2.left.right = new TreeNode(3);
-tree2.right.right = new TreeNode(3);
+//var tree2 = new TreeNode(1);
+//tree2.left = new TreeNode(2);
+//tree2.right = new TreeNode(2);
+//tree2.left.right = new TreeNode(3);
+//tree2.right.right = new TreeNode(3);
 
-Console.WriteLine(Tree.IsSymmetric(tree1));
-Console.WriteLine(Tree.IsSymmetric(tree2));
+//Console.WriteLine(Tree.IsSymmetric(tree1));
+//Console.WriteLine(Tree.IsSymmetric(tree2));
+
+Console.WriteLine("200. Number of Islands: ");
+var grid1 = new char[][]{
+    new []{'1', '1', '1', '1', '0' },
+    new []{ '1', '1', '0', '1', '0'},
+    new []{ '1', '1', '0', '0', '0'},
+    new []{ '0', '0', '0', '0', '0'}
+  };
+Console.WriteLine(NumberOfIslands.NumIslands(grid1));
+
+var grid2 = new char[][]{
+    new []{'1', '1', '0', '0', '0' },
+    new []{ '1', '1', '0', '0', '0'},
+    new []{ '0', '0', '1', '0', '0'},
+    new []{ '0', '0', '0', '1', '1'}
+  };
+Console.WriteLine(NumberOfIslands.NumIslands(grid2));
 
 Console.ReadKey(true);
