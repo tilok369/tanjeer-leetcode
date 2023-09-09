@@ -103,4 +103,23 @@ public class Tree
         return IsSymmetricPart(p.left, q.right)
             && IsSymmetricPart(p.right, q.left);
     }
+
+    public static int MaxDepth(TreeNode root)
+    {
+        if(root == null) return 0;
+
+        return 1 + Math.Max(MaxDepth(root.left), MaxDepth(root.right));
+    }
+
+    public int MinDepth(TreeNode root)
+    {
+        if (root == null) return 0;
+
+        if(root.left == null)
+            return 1 + MinDepth(root.right);
+        else if (root.right == null)
+            return 1 + MinDepth(root.left);
+
+        return 1 + Math.Min(MinDepth(root.left), MinDepth(root.right));
+    }
 }
