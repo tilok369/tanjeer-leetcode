@@ -714,17 +714,58 @@ using LeetCode.SlidingWindow;
 //  };
 //Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image2, 0, 0, 0).Select(i => string.Join(", ", i))));
 
-var i5 = new ListNode(5);
-var i4 = new ListNode(4, i5);
-var i3 = new ListNode(3, i4);
-var i2 = new ListNode(2, i3);
-var i1 = new ListNode(1, i2);
+//var i5 = new ListNode(5);
+//var i4 = new ListNode(4, i5);
+//var i3 = new ListNode(3, i4);
+//var i2 = new ListNode(2, i3);
+//var i1 = new ListNode(1, i2);
 
-var i7 = new ListNode(7);
-var i6 = new ListNode(6, i7);
+//var i7 = new ListNode(7);
+//var i6 = new ListNode(6, i7);
 
-Console.WriteLine("206. Reverse Linked List: ");
-PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i1));
-PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i6));
+//Console.WriteLine("206. Reverse Linked List: ");
+//PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i1));
+//PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i6));
 
 Console.ReadKey(true);
+
+
+
+//static int calculateCost(List<int> arr, int threshold)
+//{
+//    var costDp = new int[arr.Count,threshold + 1];
+
+//    //initialize DP with max value
+//    for (int x = 0; x < arr.Count; x++)
+//    {
+//        for (int y = 0; y < threshold + 1; y++)
+//        {
+//            costDp[x,y] = int.MaxValue;
+//        }
+//    }        
+
+//    //calculate DP for each cell
+//    for (var i = 0; i < arr.Count; i++)
+//    {
+//        for (int j = 1; j <= threshold; j++)
+//        {
+//            costDp[i, j] = arr.Skip(j - 1).Take(j).Max();
+//        }
+//    }
+
+//    var minCost = int.MaxValue;
+
+//    for (var i = 0; i < arr.Count; i++)
+//    {
+//        var size= 1;
+//        var costSum = 0;
+//        while (size <= arr.Count)
+//        {
+//            costSum += costDp[i, size];
+//            size++;
+//        }
+//        minCost = Math.Min(minCost, costSum);
+//    }
+
+//    return minCost;
+//}
