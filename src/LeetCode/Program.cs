@@ -3,6 +3,8 @@ using LeetCode;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
+using LeetCode.LinkList;
+using LeetCode.LinkList._206;
 using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
 //Console.WriteLine("Roman to Integer:");
@@ -697,19 +699,32 @@ using LeetCode.SlidingWindow;
 //  };
 //Console.WriteLine(NumberOfIslands.NumIslands(grid2));
 
-Console.WriteLine("733. Flood Fill: ");
-var image1 = new int[][]{
-    new []{1, 1, 1 },
-    new []{ 1, 1, 0},
-    new []{ 1, 0, 1}
-  };
-Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image1, 1, 1, 2).Select(i => string.Join(", ", i))));
+//Console.WriteLine("733. Flood Fill: ");
+//var image1 = new int[][]{
+//    new []{1, 1, 1 },
+//    new []{ 1, 1, 0},
+//    new []{ 1, 0, 1}
+//  };
+//Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image1, 1, 1, 2).Select(i => string.Join(", ", i))));
 
-Console.WriteLine("733. Flood Fill: ");
-var image2 = new int[][]{
-    new []{0, 0, 0 },
-    new []{ 0, 0, 0}
-  };
-Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image2, 0, 0, 0).Select(i => string.Join(", ", i))));
+//Console.WriteLine("733. Flood Fill: ");
+//var image2 = new int[][]{
+//    new []{0, 0, 0 },
+//    new []{ 0, 0, 0}
+//  };
+//Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image2, 0, 0, 0).Select(i => string.Join(", ", i))));
+
+var i5 = new ListNode(5);
+var i4 = new ListNode(4, i5);
+var i3 = new ListNode(3, i4);
+var i2 = new ListNode(2, i3);
+var i1 = new ListNode(1, i2);
+
+var i7 = new ListNode(7);
+var i6 = new ListNode(6, i7);
+
+Console.WriteLine("206. Reverse Linked List: ");
+PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i1));
+PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i6));
 
 Console.ReadKey(true);
