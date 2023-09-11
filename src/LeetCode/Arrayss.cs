@@ -1,7 +1,7 @@
 ﻿
 namespace LeetCode;
 
-public class Arrays
+public class Arrayss
 {
     public static int RemoveDuplicates(int[] nums)
     {

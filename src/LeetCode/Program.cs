@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
+using LeetCode.Arrays._34;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
@@ -26,6 +27,8 @@ using LeetCode.Strings._412;
 //IntegerToRoman.Run();
 //13
 //RomanToInteger.Run();
+//34
+//FirstLastElement.Run();
 //234
 //PalindromeLinkList.Run();
 //383
