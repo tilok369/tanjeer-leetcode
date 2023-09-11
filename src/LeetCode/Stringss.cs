@@ -3,7 +3,7 @@ using System.Text;
 
 namespace LeetCode;
 
-public class Strings
+public class Stringss
 {
     public static int LengthOfLongestSubstring(string s)
     {

@@ -1,9 +1,16 @@
-﻿
-namespace LeetCode;
+﻿namespace LeetCode.Strings._412;
 
-public class FizzBuzz
+public class FizzBuzzs
 {
-    public static IList<string> FizzBuzzs(int n)
+    public static void Run()
+    {
+        Console.WriteLine("Fizz Buzz:");
+        Console.WriteLine(String.Join(", ", FizzBuzzs.FizzBuzz(3)));
+        Console.WriteLine(String.Join(", ", FizzBuzzs.FizzBuzz(5)));
+        Console.WriteLine(String.Join(", ", FizzBuzzs.FizzBuzz(15)));
+    }
+
+    public static IList<string> FizzBuzz(int n)
     {
         var fizzBuzzs = new List<string>();
         for (int i = 1; i <= n; i++)

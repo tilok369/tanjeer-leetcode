@@ -3,35 +3,28 @@ using LeetCode;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
+using LeetCode.HashTables._12;
+using LeetCode.HashTables._13;
+using LeetCode.HashTables._383;
 using LeetCode.LinkList;
 using LeetCode.LinkList._206;
 using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
-//Console.WriteLine("Roman to Integer:");
-//Console.WriteLine(Roman2Integer.RomanToInt("III"));
-//Console.WriteLine(Roman2Integer.RomanToInt("LVIII"));
-//Console.WriteLine(Roman2Integer.RomanToInt("MCMXCIV"));
+using LeetCode.Strings._412;
 
-//Console.WriteLine("Integer to Roman:");
-//Console.WriteLine(Integer2Roman.IntToRoman(3));
-//Console.WriteLine(Integer2Roman.IntToRoman(58));
-//Console.WriteLine(Integer2Roman.IntToRoman(90));
-//Console.WriteLine(Integer2Roman.IntToRoman(63));
-//Console.WriteLine(Integer2Roman.IntToRoman(2022));
-//Console.WriteLine(Integer2Roman.IntToRoman(156));
-//Console.WriteLine(Integer2Roman.IntToRoman(1994));
 
-//Console.WriteLine("Ransom Notes:");
-//Console.WriteLine(RansomNotes.CanConstruct("a", "b"));
-//Console.WriteLine(RansomNotes.CanConstruct("aa", "ab"));
-//Console.WriteLine(RansomNotes.CanConstruct("aa", "aab"));
-//Console.WriteLine(RansomNotes.CanConstruct("aabbc", "ababcc"));
-//Console.WriteLine(RansomNotes.CanConstruct("aassswe", "aabssew"));
 
-//Console.WriteLine("Fizz Buzz:");
-//Console.WriteLine(String.Join(", ", FizzBuzz.FizzBuzzs(3)));
-//Console.WriteLine(String.Join(", ", FizzBuzz.FizzBuzzs(5)));
-//Console.WriteLine(String.Join(", ", FizzBuzz.FizzBuzzs(15)));
+//12
+//IntegerToRoman.Run();
+//13
+//RomanToInteger.Run();
+//383
+//RansomNotes.Run();
+//412
+//FizzBuzzs.Run();
+
+
+
 
 //var accounts1 = new int[][] { new[] { 1, 2, 3 }, new[] { 3, 2, 1 } };
 //var accounts2 = new int[][] { new[] { 1, 5 }, new[] { 7, 3 }, new[] { 3, 5 } };
