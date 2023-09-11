@@ -4,7 +4,7 @@ using LeetCode.LinkList;
 namespace LeetCode
 {
 
-    public class PalindromeLinkList
+    public class PalindromeLinkLists
     {
         public static void PrintList(ListNode node)
         {
@@ -15,45 +15,9 @@ namespace LeetCode
             }
         }
 
-        public static bool IsPalindrome(ListNode head)
-        {
-            var items = new List<int>();
-            var node = head;
+        
 
-            while (node != null)
-            {
-                items.Add(node.val);
-                node = node.next;
-            }
-
-            var count = items.Count;
-            for (int i = 0; i < count/2; i++)
-            {
-                if(items[i] != items[count - i -1])
-                    return false;
-            }
-
-            return true;
-        }
-
-        public static ListNode MiddleNode(ListNode head)
-        {
-            var node = head;
-            var length = 0;
-            while (node != null)
-            {
-                length++;
-                node = node.next;
-            }
-
-            node = head;
-            for (int i = 0; i < (length / 2); i++)
-            {
-                node = node.next;
-            }
-
-            return node;
-        }
+        
 
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {

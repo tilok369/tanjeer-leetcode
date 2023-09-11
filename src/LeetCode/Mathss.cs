@@ -1,7 +1,7 @@
 ﻿
 namespace LeetCode;
 
-public class Maths
+public class Mathss
 {
     
     public static int Divide(int dividend, int divisor)

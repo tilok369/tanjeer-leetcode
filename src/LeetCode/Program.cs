@@ -3,96 +3,56 @@ using LeetCode;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
+using LeetCode.HashTables._1;
 using LeetCode.HashTables._12;
 using LeetCode.HashTables._13;
 using LeetCode.HashTables._383;
 using LeetCode.LinkList;
 using LeetCode.LinkList._206;
+using LeetCode.LinkList._234;
+using LeetCode.LinkList._876;
+using LeetCode.Maths._1342;
+using LeetCode.Matrix._1337;
+using LeetCode.Matrix._1672;
 using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
 using LeetCode.Strings._412;
 
 
 
+//1
+//TwoSums.Run();
 //12
 //IntegerToRoman.Run();
 //13
 //RomanToInteger.Run();
+//234
+//PalindromeLinkList.Run();
 //383
 //RansomNotes.Run();
 //412
 //FizzBuzzs.Run();
+//876
+//MiddleNodeLinkList.Run();
+//1337
+//KWeakestRowsMatrix.Run();
+//1342
+//ReduceNumberToZero.Run();
+//1672
+//RichestCustomerWealth.Run();
 
 
 
 
-//var accounts1 = new int[][] { new[] { 1, 2, 3 }, new[] { 3, 2, 1 } };
-//var accounts2 = new int[][] { new[] { 1, 5 }, new[] { 7, 3 }, new[] { 3, 5 } };
-
-//Console.WriteLine("Fizz Buzz:");
-//Console.WriteLine(RichestCustomer.MaximumWealth(accounts1));
-//Console.WriteLine(RichestCustomer.MaximumWealth(accounts2));
-
-//var i4 = new ListNode(1);
-//var i3 = new ListNode(2, i4);
-//var i2 = new ListNode(2, i3);
-//var i1 = new ListNode(1, i2);
-
-//var j2 = new ListNode(1);
-//var j1 = new ListNode(2, j2);
-
-//Console.WriteLine("Linked List Palindrome:");
-//Console.WriteLine(PalindromeLinkList.IsPalindrome(i1));
-//Console.WriteLine(PalindromeLinkList.IsPalindrome(j1));
-
-//var i8 = new ListNode(8);
-//var i7 = new ListNode(7, i8);
-//var i6 = new ListNode(6, i7);
-//var i5 = new ListNode(5, i6);
-//var i4 = new ListNode(4, i5);
-//var i3 = new ListNode(3, i4);
-//var i2 = new ListNode(2, i3);
-//var i1 = new ListNode(1, i2);
-
-//var j7 = new ListNode(7);
-//var j6 = new ListNode(6, j7);
-//var j5 = new ListNode(5, j6);
-//var j4 = new ListNode(4, j5);
-//var j3 = new ListNode(3, j4);
-//var j2 = new ListNode(2, j3);
-//var j1 = new ListNode(1, j2);
 
 
 
-//Console.WriteLine("Linked List Palindrome:");
-//Console.WriteLine(PalindromeLinkList.MiddleNode(j1).val);
-//Console.WriteLine(PalindromeLinkList.MiddleNode(i1).val);
 
-//var mat1 = new int[][] { new []{ 1, 1, 0, 0, 0 }, new[] { 1, 1, 1, 1, 0 }, new[] { 1, 0, 0, 0, 0 }, new[] { 1, 1, 0, 0, 0 }, new[] { 1, 1, 1, 1, 1 } };
-//var mat2 = new int[][] { new[] { 1, 0, 0, 0 }, new[] { 1, 1, 1, 1 }, new[] { 1, 0, 0, 0 }, new[] { 1, 0, 0, 0 } };
 
-//Console.WriteLine("K Weakest Rows:");
-//Console.WriteLine(string.Join(", ", Matrix.KWeakestRows(mat1, 3)));
-//Console.WriteLine(string.Join(", ", Matrix.KWeakestRows(mat2, 2)));
 
-//Console.WriteLine("Number of Steps:");
-//Console.WriteLine(NumberToZero.NumberOfSteps(14));
-//Console.WriteLine(NumberToZero.NumberOfSteps(8));
-//Console.WriteLine(NumberToZero.NumberOfSteps(17));
-//Console.WriteLine(NumberToZero.NumberOfSteps(22));
-//Console.WriteLine(NumberToZero.NumberOfSteps(1));
-//Console.WriteLine(NumberToZero.NumberOfSteps(0));
 
-//Console.WriteLine("Two Sum:");
-//Console.WriteLine(string.Join(", ", Summation.TwoSum(new int[] { 2, 7, 11, 15 }, 9)));
-//Console.WriteLine(string.Join(", ", Summation.TwoSum(new int[] { 3, 2, 4 }, 6)));
-//Console.WriteLine(string.Join(", ", Summation.TwoSum(new int[] { 3, 3 }, 6)));
-//Console.WriteLine(string.Join(", ", Summation.TwoSum(new int[] { 1 }, 1)));
 
-//Console.WriteLine(string.Join(", ", Summation.TwoSumOptimized(new int[] { 2, 7, 11, 15 }, 9)));
-//Console.WriteLine(string.Join(", ", Summation.TwoSumOptimized(new int[] { 3, 2, 4 }, 6)));
-//Console.WriteLine(string.Join(", ", Summation.TwoSumOptimized(new int[] { 3, 3 }, 6)));
-//Console.WriteLine(string.Join(", ", Summation.TwoSumOptimized(new int[] { 1 }, 1)));
+
 
 //Console.WriteLine("Three Sum:");
 //Console.WriteLine(string.Join(" | ", Summation.ThreeSum(new int[] { -1, 0, 1, 2, -1, -4 }).Select(i => string.Join(",", i))));
