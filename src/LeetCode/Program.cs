@@ -7,12 +7,16 @@ using LeetCode.DFS._733;
 using LeetCode.HashTables._1;
 using LeetCode.HashTables._12;
 using LeetCode.HashTables._13;
+using LeetCode.HashTables._15;
+using LeetCode.HashTables._16;
+using LeetCode.HashTables._18;
 using LeetCode.HashTables._383;
 using LeetCode.LinkList;
 using LeetCode.LinkList._206;
 using LeetCode.LinkList._234;
 using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
+using LeetCode.Maths._7;
 using LeetCode.Matrix._1337;
 using LeetCode.Matrix._1672;
 using LeetCode.Recursion;
@@ -23,10 +27,18 @@ using LeetCode.Strings._412;
 
 //1
 //TwoSums.Run();
+//7
+//ReverseInteger.Run();
 //12
 //IntegerToRoman.Run();
 //13
 //RomanToInteger.Run();
+//15
+//ThreeSums.Run();
+//16
+//ThreeSumsClosest.Run();
+//18
+//FourSums.Run();
 //34
 //FirstLastElement.Run();
 //234
@@ -57,17 +69,9 @@ using LeetCode.Strings._412;
 
 
 
-//Console.WriteLine("Three Sum:");
-//Console.WriteLine(string.Join(" | ", Summation.ThreeSum(new int[] { -1, 0, 1, 2, -1, -4 }).Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join(" | ", Summation.ThreeSum(new int[] { 0, 1, 1 }).Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join(" | ", Summation.ThreeSum(new int[] { 0, 0, 0 }).Select(i => string.Join(",", i))));
 
-//Console.WriteLine("Reverse Integer:");
-//Console.WriteLine(ReverseInteger.Reverse(123));
-//Console.WriteLine(ReverseInteger.Reverse(-123));
-//Console.WriteLine(ReverseInteger.Reverse(120));
-//Console.WriteLine(ReverseInteger.Reverse(11234456));
-//Console.WriteLine(ReverseInteger.Reverse(1534236469));
+
+
 
 //Console.WriteLine("Add Two Numbers:");
 
@@ -231,13 +235,7 @@ using LeetCode.Strings._412;
 //Console.WriteLine(Searches.Search(new int[] { 4, 5, 6, 7, 0, 1, 2 }, 3));
 //Console.WriteLine(Searches.Search(new int[] { 1 }, 0));
 
-//Console.WriteLine("3Sum Closest: ");
-//Console.WriteLine(Summation.ThreeSumClosest(new int[] { -1, 2, 1, -4 }, 1));
-//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 0, 0 }, 1));
-//Console.WriteLine(Summation.ThreeSumClosest(new int[] { -2, 0, 3, 6, 7 }, 4));
-//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 3, 6, 7, -2, 6, 0 }, 4));
-//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 0, 3, 6, 7, -2, 6 }, 4));
-//Console.WriteLine(Summation.ThreeSumClosest(new int[] { 4, 0, 5, -5, 3, 3, 0, -4, -5 }, -2));
+
 
 //Console.WriteLine("Generate Parentheses: ");
 //Console.WriteLine("3: " + string.Join(",", Recursions.GenerateParenthesis(3)));
@@ -256,11 +254,7 @@ using LeetCode.Strings._412;
 //Console.WriteLine(Strings.Convert("PAYPALISHIRING", 6));
 //Console.WriteLine(Strings.Convert("PAYPALISHIRING", 2));
 
-//Console.WriteLine("4sum: ");
-//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 1, 0, -1, 0, -2, 2 }, 0).Select(s => string.Join(",", s))));
-//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 2, 2, 2, 2, 2 }, 8).Select(s => string.Join(",", s))));
-//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 2, 2, 2, 2, 2 }, 5).Select(s => string.Join(",", s))));
-//Console.WriteLine(string.Join("|", Summation.FourSum(new int[] { 1000000000, 1000000000, 1000000000, 1000000000 }, -294967296).Select(s => string.Join(",", s))));
+
 
 
 //Console.WriteLine("Remove Nth Node From End of List: ");
