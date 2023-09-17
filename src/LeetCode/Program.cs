@@ -4,6 +4,7 @@ using LeetCode.Arrays._34;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
+using LeetCode.DynamicProgramming._516;
 using LeetCode.HashTables._1;
 using LeetCode.HashTables._12;
 using LeetCode.HashTables._13;
@@ -12,33 +13,51 @@ using LeetCode.HashTables._16;
 using LeetCode.HashTables._18;
 using LeetCode.HashTables._383;
 using LeetCode.LinkList;
+using LeetCode.LinkList._2;
 using LeetCode.LinkList._206;
 using LeetCode.LinkList._234;
 using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
 using LeetCode.Maths._7;
+using LeetCode.Maths._9;
 using LeetCode.Matrix._1337;
 using LeetCode.Matrix._1672;
 using LeetCode.Recursion;
 using LeetCode.SlidingWindow;
+using LeetCode.SlidingWindow._3;
+using LeetCode.Stack._20;
+using LeetCode.Strings._14;
 using LeetCode.Strings._412;
+using LeetCode.Strings._8;
 
 
 
 //1
 //TwoSums.Run();
+//2
+//AddTwoNumbersLinkList.Run();
+//3
+//LongestSubstringWithoutRepeatingCharacters.Run();
 //7
 //ReverseInteger.Run();
+//8
+//StringToInteger.Run();
+//9
+//PalindromNumber.Run();
 //12
 //IntegerToRoman.Run();
 //13
 //RomanToInteger.Run();
+//14
+//LongestCommon.Run();
 //15
 //ThreeSums.Run();
 //16
 //ThreeSumsClosest.Run();
 //18
 //FourSums.Run();
+//20
+//ValidParantheses.Run();
 //34
 //FirstLastElement.Run();
 //234
@@ -47,6 +66,8 @@ using LeetCode.Strings._412;
 //RansomNotes.Run();
 //412
 //FizzBuzzs.Run();
+//516
+//LongestPalindromicSubsequence.Run();
 //876
 //MiddleNodeLinkList.Run();
 //1337
@@ -73,102 +94,21 @@ using LeetCode.Strings._412;
 
 
 
-//Console.WriteLine("Add Two Numbers:");
 
-//var i3 = new ListNode(3);
-//var i2 = new ListNode(4, i3);
-//var i1 = new ListNode(2, i2);
 
-//var j3 = new ListNode(4);
-//var j2 = new ListNode(6, j3);
-//var j1 = new ListNode(5, j2);
 
-//PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(i1, j1));
-//Console.WriteLine();
-//var k1 = new ListNode(0);
-//var l1 = new ListNode(0);
 
-//PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(k1, l1));
-//Console.WriteLine();
-//var m7 = new ListNode(9);
-//var m6 = new ListNode(9, m7);
-//var m5 = new ListNode(9, m6);
-//var m4 = new ListNode(9, m5);
-//var m3 = new ListNode(9, m4);
-//var m2 = new ListNode(9, m3);
-//var m1 = new ListNode(9, m2);
 
-//var n4 = new ListNode(9);
-//var n3 = new ListNode(9, n4);
-//var n2 = new ListNode(9, n3);
-//var n1 = new ListNode(9, n2);
 
-//PalindromeLinkList.PrintList(PalindromeLinkList.AddTwoNumbers(m1, n1));
-//Console.WriteLine();
 
-//Console.WriteLine("Longest Substring Without Repeating Characters: ");
-//Console.WriteLine(Strings.LengthOfLongestSubstring("abcabcbb"));
-//Console.WriteLine(Strings.LengthOfLongestSubstring("bbbbb"));
-//Console.WriteLine(Strings.LengthOfLongestSubstring("pwwkew"));
-//Console.WriteLine(Strings.LengthOfLongestSubstring("aaabbaaaababa"));
-//Console.WriteLine(Strings.LengthOfLongestSubstring("abssbwertdsa"));
-//Console.WriteLine(Strings.LengthOfLongestSubstring("ab v45#$gt"));
-//Console.WriteLine(Strings.LengthOfLongestSubstring("ababcde"));
-//Console.WriteLine(Strings.LengthOfLongestSubstring("123456"));
 
-//Console.WriteLine("AtoI: ");
-//Console.WriteLine(AtoI.MyAtoi("42"));
-//Console.WriteLine(AtoI.MyAtoi("   -42"));
-//Console.WriteLine(AtoI.MyAtoi("4193 with words"));
-//Console.WriteLine(AtoI.MyAtoi("12345678900"));
-//Console.WriteLine(AtoI.MyAtoi("-12345678900"));
-//Console.WriteLine(AtoI.MyAtoi("-+12"));
-//Console.WriteLine(AtoI.MyAtoi("+-12"));
-//Console.WriteLine(AtoI.MyAtoi("0012"));
-//Console.WriteLine(AtoI.MyAtoi(""));
-//Console.WriteLine(AtoI.MyAtoi(" "));
-//Console.WriteLine(AtoI.MyAtoi("9223372036854775808"));
 
-//Console.WriteLine("Palindromic Subsequence: ");
-//Console.WriteLine(Palindrom.IsPalindrom("aba"));
-//Console.WriteLine(Palindrom.IsPalindrom("bb"));
-//Console.WriteLine(Palindrom.IsPalindrom("abcva"));
-//Console.WriteLine(Palindrom.LongestPalindrome("babad"));
-//Console.WriteLine(Palindrom.LongestPalindrome("cbbd"));
-//Console.WriteLine(Palindrom.LongestPalindrome("b"));
-//Console.WriteLine(Palindrom.LongestPalindrome("bbbbbbbbbb"));
-//Console.WriteLine(Palindrom.LongestPalindrome("abc"));
-//Console.WriteLine(Palindrom.LongestPalindrome("abcbabbcbbab"));
 
-//Console.WriteLine(Palindrom.LongestPalindrome2("babad"));
-//Console.WriteLine(Palindrom.LongestPalindrome2("cbbd"));
-//Console.WriteLine(Palindrom.LongestPalindrome2("b"));
-//Console.WriteLine(Palindrom.LongestPalindrome2("bbbbbbbbbb"));
-//Console.WriteLine(Palindrom.LongestPalindrome2("abc"));
-//Console.WriteLine(Palindrom.LongestPalindrome2("abcbabbcbbab"));
 
-//Console.WriteLine("Palindrom: ");
-//Console.WriteLine(Palindrom.IsPalindrome(121));
-//Console.WriteLine(Palindrom.IsPalindrome(-121));
-//Console.WriteLine(Palindrom.IsPalindrome(10));
-//Console.WriteLine(Palindrom.IsPalindrome(10101));
-//Console.WriteLine(Palindrom.IsPalindrome(10101010));
-//Console.WriteLine(Palindrom.IsPalindrome(0));
-//Console.WriteLine(Palindrom.IsPalindrome(-10101));
 
-//Console.WriteLine("Longest Common Prefix: ");
-//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "flower", "flow", "flight" }));
-//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "dog", "racecar", "car" }));
-//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "dog", "dogger", "doggest" }));
-//Console.WriteLine(StringMatching.LongestCommonPrefix(new string[] { "", "dogger", "doggest" }));
 
-//Console.WriteLine("Valid Parantheses: ");
-//Console.WriteLine(Parantheses.IsValid("()"));
-//Console.WriteLine(Parantheses.IsValid("()[]{}"));
-//Console.WriteLine(Parantheses.IsValid("(]"));
-//Console.WriteLine(Parantheses.IsValid("[{()()}()][]"));
-//Console.WriteLine(Parantheses.IsValid("[{()()}()[]"));
-//Console.WriteLine(Parantheses.IsValid("]"));
+
+
 
 //Console.WriteLine("Container With Most Water: ");
 //Console.WriteLine(Container.MaxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
