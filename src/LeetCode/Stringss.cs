@@ -24,77 +24,9 @@ public class Stringss
     //    return max;
     //}
 
-    private static Dictionary<char, List<char>> phonenumbers = new Dictionary<char, List<char>>
-        {
-            {'0', new List<char>()},
-            {'1', new List<char>()},
-            {'2', new List<char>() {'a', 'b', 'c'}},
-            {'3', new List<char>() {'d', 'e', 'f'}},
-            {'4', new List<char>() {'g', 'h', 'i'}},
-            {'5', new List<char>() {'j', 'k', 'l'}},
-            {'6', new List<char>() {'m', 'n', 'o'}},
-            {'7', new List<char>() {'p', 'q', 'r', 's'}},
-            {'8', new List<char>() {'t', 'u', 'v'}},
-            {'9', new List<char>() {'w', 'x', 'y', 'z'}}
-        };
+    
 
-    //private static List<string> combinations = new List<string>();
-
-    public static IList<string> LetterCombinations(string digits)
-    {
-        var combinations = new List<string>();
-        LetterCombinationConstructor(combinations, digits, 0, new StringBuilder());
-
-        return combinations;
-    }
-
-    private static void LetterCombinationConstructor(List<string>  combinations, string digits, int index, StringBuilder result)
-    {
-        if (index >= digits.Length)
-        {
-            if (result.Length > 0)
-            {
-                combinations.Add(result.ToString());
-            }
-            return;
-        }
-
-        var letters = phonenumbers[digits[index]];
-        foreach (var letter in letters)
-        {
-            result.Append(letter);
-            LetterCombinationConstructor(combinations, digits, index + 1, result);
-            result.Remove(result.Length - 1, 1);
-        }
-    }
-
-    public static int StrStr(string haystack, string needle)
-    {
-        if(haystack.Length < needle.Length)
-            return -1;
-        var j = 0;
-        var index = -1;
-        for (int i = 0; i < haystack.Length; i++)
-        {
-            if (haystack[i] == needle[j])
-            {               
-                if (j == 0)
-                    index = i;
-                if (j == needle.Length - 1)
-                    return index;
-                j++;
-            }
-            else
-            {
-                if(j > 0)
-                    i -= j;
-                j = 0;
-                index = -1;
-            }
-        }
-
-        return j == needle.Length ? index : -1;
-    }
+    
 
     //PAHNAPLSIIGYIR
     //PINALSIGYAHRPI

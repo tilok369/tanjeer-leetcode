@@ -1,10 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
+using LeetCode.Arrays._26;
+using LeetCode.Arrays._27;
 using LeetCode.Arrays._34;
+using LeetCode.Arrays._35;
+using LeetCode.Backtracking._17;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
 using LeetCode.DynamicProgramming._516;
+using LeetCode.Greedy._11;
 using LeetCode.HashTables._1;
 using LeetCode.HashTables._12;
 using LeetCode.HashTables._13;
@@ -15,6 +20,7 @@ using LeetCode.HashTables._383;
 using LeetCode.LinkList;
 using LeetCode.LinkList._2;
 using LeetCode.LinkList._206;
+using LeetCode.LinkList._21;
 using LeetCode.LinkList._234;
 using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
@@ -29,6 +35,7 @@ using LeetCode.Stack._20;
 using LeetCode.Strings._14;
 using LeetCode.Strings._412;
 using LeetCode.Strings._8;
+using LeetCode.TwoPointers._28;
 
 
 
@@ -44,6 +51,8 @@ using LeetCode.Strings._8;
 //StringToInteger.Run();
 //9
 //PalindromNumber.Run();
+//11
+//ContainerWithMostWater.Run();
 //12
 //IntegerToRoman.Run();
 //13
@@ -54,12 +63,24 @@ using LeetCode.Strings._8;
 //ThreeSums.Run();
 //16
 //ThreeSumsClosest.Run();
+//17
+//LetterCombinationsPhone.Run();
 //18
 //FourSums.Run();
 //20
 //ValidParantheses.Run();
+//21
+//MergeList.Run();
+//26
+//RemoveArrayDuplicates.Run();
+//27
+//RemoveArrayElement.Run();
+//28
+//FindFirstOccurrence.Run();
 //34
 //FirstLastElement.Run();
+//35
+//SearchInsertPosition.Run();
 //234
 //PalindromeLinkList.Run();
 //383
@@ -74,7 +95,7 @@ using LeetCode.Strings._8;
 //KWeakestRowsMatrix.Run();
 //1342
 //ReduceNumberToZero.Run();
-//1672
+//1672you
 //RichestCustomerWealth.Run();
 
 
@@ -85,85 +106,6 @@ using LeetCode.Strings._8;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Console.WriteLine("Container With Most Water: ");
-//Console.WriteLine(Container.MaxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
-//Console.WriteLine(Container.MaxArea(new int[] { 1, 1 }));
-
-//Console.WriteLine("Merge Two Sorted Lists: ");
-
-//var list13 = new ListNode(4, null);
-//var list12 = new ListNode(2, list13);
-//var list1 = new ListNode(1, list12);
-
-//var list23 = new ListNode(4, null);
-//var list21 = new ListNode(3, list23);
-//var list2 = new ListNode(1, list21);
-//PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list1, list2));
-//Console.WriteLine();
-//var list3 = new ListNode(0, null);
-//PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(list3, null));
-//Console.WriteLine();
-//PalindromeLinkList.PrintList(LinkedList.MergeTwoLists(null, null));
-
-//Console.WriteLine("Letter Combinations of a Phone Number: ");
-//Console.WriteLine(string.Join(",", Strings.LetterCombinations("23")));
-//Console.WriteLine(string.Join(",", Strings.LetterCombinations("")));
-//Console.WriteLine(string.Join(",", Strings.LetterCombinations("2")));
-//Console.WriteLine(string.Join(",", Strings.LetterCombinations("234")));
-
-//Console.WriteLine("Remove Duplicates from Sorted Array: ");
-//Console.WriteLine(Arrays.RemoveDuplicates(new[] { 1, 1, 2 }));
-//Console.WriteLine(Arrays.RemoveDuplicates(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }));
-//Console.WriteLine(Arrays.RemoveDuplicates(new[] { 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5 }));
-
-//Console.WriteLine("Remove Duplicates from Sorted Array: ");
-//Console.WriteLine(Arrays.RemoveElement(new[] { 3, 2, 2, 3 }, 3));
-//Console.WriteLine(Arrays.RemoveElement(new[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2));
-//Console.WriteLine(Arrays.RemoveElement(new[] { 2, 2, 2 }, 2));
-//Console.WriteLine(Arrays.RemoveElement(new[] { 0, 1, 1, 6, 3, 0, 4, 5 }, 2));
-
-//Console.WriteLine("Find the Index of the First Occurrence in a String: ");
-//Console.WriteLine(Strings.StrStr("sadbutsad", "sad"));
-//Console.WriteLine(Strings.StrStr("leetcode", "leeto"));
-//Console.WriteLine(Strings.StrStr("leetcode", "leetcode"));
-//Console.WriteLine(Strings.StrStr("qweqwesadbutsad", "sad"));
-//Console.WriteLine(Strings.StrStr("aaa", "aaaa"));
-//Console.WriteLine(Strings.StrStr("mississippi", "issip"));
-//Console.WriteLine(Strings.StrStr("mississippi", "issi"));
-//Console.WriteLine(Strings.StrStr("mississippi", "issipi"));
-//Console.WriteLine(Strings.StrStr("mississippi", "pi"));
-//Console.WriteLine(Strings.StrStr("mississippi", "sippia"));
-
-//Console.WriteLine("Search Insert Position: ");
-//Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 5));
-//Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 2));
-//Console.WriteLine(Arrays.SearchInsert(new int[] { 1, 3, 5, 6 }, 7));
-//Console.WriteLine(Arrays.SearchInsert(new int[] { 2, 3, 5, 6 }, 1));
 
 //Console.WriteLine("Divide Two Integers: ");
 //Console.WriteLine(Maths.Divide(10, 3));
