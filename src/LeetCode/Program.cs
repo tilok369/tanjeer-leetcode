@@ -4,7 +4,10 @@ using LeetCode.Arrays._26;
 using LeetCode.Arrays._27;
 using LeetCode.Arrays._34;
 using LeetCode.Arrays._35;
+using LeetCode.Arrays._704;
 using LeetCode.Backtracking._17;
+using LeetCode.Backtracking._22;
+using LeetCode.Backtracking._31;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
@@ -18,12 +21,14 @@ using LeetCode.HashTables._16;
 using LeetCode.HashTables._18;
 using LeetCode.HashTables._383;
 using LeetCode.LinkList;
+using LeetCode.LinkList._19;
 using LeetCode.LinkList._2;
 using LeetCode.LinkList._206;
 using LeetCode.LinkList._21;
 using LeetCode.LinkList._234;
 using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
+using LeetCode.Maths._29;
 using LeetCode.Maths._7;
 using LeetCode.Maths._9;
 using LeetCode.Matrix._1337;
@@ -34,6 +39,7 @@ using LeetCode.SlidingWindow._3;
 using LeetCode.Stack._20;
 using LeetCode.Strings._14;
 using LeetCode.Strings._412;
+using LeetCode.Strings._6;
 using LeetCode.Strings._8;
 using LeetCode.TwoPointers._28;
 
@@ -45,6 +51,8 @@ using LeetCode.TwoPointers._28;
 //AddTwoNumbersLinkList.Run();
 //3
 //LongestSubstringWithoutRepeatingCharacters.Run();
+//6
+//ZigzagConversion.Run();
 //7
 //ReverseInteger.Run();
 //8
@@ -67,16 +75,24 @@ using LeetCode.TwoPointers._28;
 //LetterCombinationsPhone.Run();
 //18
 //FourSums.Run();
+//19
+//RemoveNthNode.Run();
 //20
 //ValidParantheses.Run();
 //21
 //MergeList.Run();
+//22
+//GenerateParentheses.Run();
 //26
 //RemoveArrayDuplicates.Run();
 //27
 //RemoveArrayElement.Run();
 //28
 //FindFirstOccurrence.Run();
+//29
+//DivideTwoIntegers.Run();
+//31
+//NextPermutation.Run();
 //34
 //FirstLastElement.Run();
 //35
@@ -89,13 +105,15 @@ using LeetCode.TwoPointers._28;
 //FizzBuzzs.Run();
 //516
 //LongestPalindromicSubsequence.Run();
+//704
+//BinarySearch.Run();
 //876
 //MiddleNodeLinkList.Run();
 //1337
 //KWeakestRowsMatrix.Run();
 //1342
 //ReduceNumberToZero.Run();
-//1672you
+//1672
 //RichestCustomerWealth.Run();
 
 
@@ -107,46 +125,21 @@ using LeetCode.TwoPointers._28;
 
 
 
-//Console.WriteLine("Divide Two Integers: ");
-//Console.WriteLine(Maths.Divide(10, 3));
-//Console.WriteLine(Maths.Divide(7, -3));
-//Console.WriteLine(Maths.Divide(33, 2));
-
-//Console.WriteLine("Divide Two Integers: ");
-//Console.WriteLine(Searches.Search(new int[] { 4, 5, 6, 7, 0, 1, 2 }, 0));
-//Console.WriteLine(Searches.Search(new int[] { 4, 5, 6, 7, 0, 1, 2 }, 3));
-//Console.WriteLine(Searches.Search(new int[] { 1 }, 0));
-
-
-
-//Console.WriteLine("Generate Parentheses: ");
-//Console.WriteLine("3: " + string.Join(",", Recursions.GenerateParenthesis(3)));
-//Console.WriteLine("1: " + string.Join(",", Recursions.GenerateParenthesis(1)));
-//Console.WriteLine("4: " + string.Join(",", Recursions.GenerateParenthesis(4)));
-
-//Console.WriteLine("Generate Parentheses: ");
-//Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 1, 2, 3 })));
-//Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 3, 2, 1 })));
-//Console.WriteLine(string.Join(",", Maths.NextPermutation(new int[] { 1, 1, 5 })));
-
-//Console.WriteLine("Zigzag Conversion: ");
-//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 3));
-//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 4));
-//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 5));
-//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 6));
-//Console.WriteLine(Strings.Convert("PAYPALISHIRING", 2));
 
 
 
 
-//Console.WriteLine("Remove Nth Node From End of List: ");
-//var l5 = new ListNode(5, null);
-//var l4 = new ListNode(4, l5);
-//var l3 = new ListNode(3, l4);
-//var l2 = new ListNode(2, l3);
-//var l1 = new ListNode(1, l2);
-//PalindromeLinkList.PrintList(LinkedList.RemoveNthFromEnd(l1, 2));
-//PalindromeLinkList.PrintList(LinkedList.RemoveNthFromEnd(l5, 1));
+
+
+
+
+
+
+
+
+
+
+
 
 
 

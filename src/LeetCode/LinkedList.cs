@@ -6,30 +6,7 @@ public class LinkedList
 {
     
 
-    public static ListNode RemoveNthFromEnd(ListNode head, int n)
-    {
-        var tempNode = new ListNode(-1);
-        tempNode.next = head;
-
-        var start = tempNode;
-        var end = tempNode;
-
-        var i = 0;
-        while (i < n)
-        {
-            end = end.next;
-            i++;
-        }
-
-        while (end != null && end.next != null)
-        {
-            end = end.next;
-            start = start.next;
-        }
-
-        start.next = start.next.next;
-        return tempNode.next;
-    }
+    
 
 
 
