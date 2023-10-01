@@ -8,6 +8,7 @@ using LeetCode.Arrays._704;
 using LeetCode.Backtracking._17;
 using LeetCode.Backtracking._22;
 using LeetCode.Backtracking._31;
+using LeetCode.Backtracking._39;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
@@ -26,6 +27,7 @@ using LeetCode.LinkList._2;
 using LeetCode.LinkList._206;
 using LeetCode.LinkList._21;
 using LeetCode.LinkList._234;
+using LeetCode.LinkList._24;
 using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
 using LeetCode.Maths._29;
@@ -33,7 +35,9 @@ using LeetCode.Maths._7;
 using LeetCode.Maths._9;
 using LeetCode.Matrix._1337;
 using LeetCode.Matrix._1672;
+using LeetCode.Matrix._36;
 using LeetCode.Recursion;
+using LeetCode.Recursion._38;
 using LeetCode.SlidingWindow;
 using LeetCode.SlidingWindow._3;
 using LeetCode.Stack._20;
@@ -83,6 +87,8 @@ using LeetCode.TwoPointers._28;
 //MergeList.Run();
 //22
 //GenerateParentheses.Run();
+//24
+//SwapNodes.Run();
 //26
 //RemoveArrayDuplicates.Run();
 //27
@@ -97,6 +103,12 @@ using LeetCode.TwoPointers._28;
 //FirstLastElement.Run();
 //35
 //SearchInsertPosition.Run();
+//36
+//Sudoku.Run();
+//38
+//CountSay.Run();
+//39
+//CombiSum.Run();
 //234
 //PalindromeLinkList.Run();
 //383
@@ -144,109 +156,7 @@ using LeetCode.TwoPointers._28;
 
 
 
-//Console.WriteLine("Swap Nodes in Pairs: ");
-//var l6 = new ListNode(6, null);
-//var l5 = new ListNode(5, l6);
-//var l4 = new ListNode(4, l5);
-//var l3 = new ListNode(3, l4);
-//var l2 = new ListNode(2, l3);
-//var l1 = new ListNode(1, l2);
-//PalindromeLinkList.PrintList(LinkedList.SwapPairs(null));
 
-//Console.WriteLine("Valid Sudoku: ");
-
-//var board1 = new char[][]
-//    { 
-//        new[] { '5', '3', '.', '.', '7', '.', '.', '.', '.'},
-//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
-//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
-//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
-//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
-//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
-//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
-//        new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5'},
-//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
-//    };
-
-//var board2 = new char[][]
-//    {
-//        new[] { '8', '3', '.', '.', '7', '.', '.', '.', '.'},
-//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
-//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
-//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
-//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
-//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
-//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
-//        new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5'},
-//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
-//    };
-
-//var board3 = new char[][]
-//    {
-//        new[] { '5', '3', '.', '.', '7', '.', '.', '.', '.'},
-//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
-//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
-//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
-//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
-//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
-//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
-//        new[] { '.', '.', '.', '4', '7', '9', '.', '.', '5'},
-//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
-//    };
-
-//var board4 = new char[][]
-//    {
-//        new[] { '1', '3', '.', '.', '7', '.', '.', '.', '.'},
-//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
-//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
-//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
-//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
-//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
-//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
-//        new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5'},
-//        new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9'}
-//    };
-
-//var board5 = new char[][]
-//    {
-//        new[] { '5', '3', '.', '.', '7', '.', '.', '.', '.'},
-//        new[] { '6', '.', '.', '1', '9', '5', '.', '.', '.'},
-//        new[] { '.', '9', '8', '.', '.', '.', '.', '6', '.'},
-//        new[] { '8', '.', '.', '.', '6', '.', '.', '.', '3'},
-//        new[] { '4', '.', '.', '8', '.', '3', '.', '.', '1'},
-//        new[] { '7', '.', '.', '.', '2', '.', '.', '.', '6'},
-//        new[] { '.', '6', '.', '.', '.', '.', '2', '8', '.'},
-//        new[] { '.', '.', '.', '4', '7', '9', '.', '.', '5'},
-//        new[] { '9', '.', '.', '.', '8', '.', '.', '7', '9'}
-//    };
-
-//Console.WriteLine(Sudoku.IsValidSudoku(board1));
-//Console.WriteLine(Sudoku.IsValidSudoku(board2));
-//Console.WriteLine(Sudoku.IsValidSudoku(board3));
-//Console.WriteLine(Sudoku.IsValidSudoku(board4));
-//Console.WriteLine(Sudoku.IsValidSudoku(board5));
-
-//Console.WriteLine("Count And Say: ");
-//Console.WriteLine(Recursions.CountAndSay(1));
-//Console.WriteLine(Recursions.CountAndSay(2));
-//Console.WriteLine(Recursions.CountAndSay(3));
-//Console.WriteLine(Recursions.CountAndSay(4));
-//Console.WriteLine(Recursions.CountAndSay(5));
-//Console.WriteLine(Recursions.CountAndSay(6));
-
-//Console.WriteLine("Combination Sum: ");
-//Console.WriteLine(string.Join("|", Recursions.CombinationSum(new int[] { 2, 3, 6, 7 }, 7)
-//    .Select(i=> string.Join(",", i))));
-//Console.WriteLine(string.Join("|", Recursions.CombinationSum(new int[] { 2, 3, 5 }, 8)
-//    .Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join("|", Recursions.CombinationSum(new int[] { 2 }, 1)
-//    .Select(i => string.Join(",", i))));
-
-//Console.WriteLine("Combination Sum ||: ");
-//Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 10, 1, 2, 7, 6, 1, 5 }, 8)
-//    .Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join("|", Recursions.CombinationSum2(new int[] { 2, 5, 2, 1, 2 }, 5)
-//    .Select(i => string.Join(",", i))));
 
 //Console.WriteLine("Multiply Strings: ");
 //Console.WriteLine(Maths.Multiply("123", "456"));
