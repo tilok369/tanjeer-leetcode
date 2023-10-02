@@ -14,6 +14,7 @@ using LeetCode.DFS._200;
 using LeetCode.DFS._733;
 using LeetCode.DynamicProgramming._516;
 using LeetCode.Greedy._11;
+using LeetCode.Greedy._45;
 using LeetCode.HashTables._1;
 using LeetCode.HashTables._12;
 using LeetCode.HashTables._13;
@@ -31,6 +32,7 @@ using LeetCode.LinkList._24;
 using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
 using LeetCode.Maths._29;
+using LeetCode.Maths._43;
 using LeetCode.Maths._7;
 using LeetCode.Maths._9;
 using LeetCode.Matrix._1337;
@@ -109,6 +111,10 @@ using LeetCode.TwoPointers._28;
 //CountSay.Run();
 //39
 //CombiSum.Run();
+//43
+//MultiplyStrings.Run();
+//45
+//JumpGameTwo.Run();
 //234
 //PalindromeLinkList.Run();
 //383
@@ -158,26 +164,9 @@ using LeetCode.TwoPointers._28;
 
 
 
-//Console.WriteLine("Multiply Strings: ");
-//Console.WriteLine(Maths.Multiply("123", "456"));
-//Console.WriteLine(Maths.Multiply("2", "3"));
-//Console.WriteLine(Maths.Multiply("999", "999"));
-//Console.WriteLine(Maths.Multiply("12345", "100"));
-//Console.WriteLine(Maths.Multiply("9133", "0"));
 
-//Console.WriteLine("Jump Game II: ");
-//Console.WriteLine(Arrays.Jump2(new int[] { 2, 3, 1, 1, 4 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 2, 3, 1, 1, 4, 2, 1 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 2 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 0, 2, 3 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 2, 3, 1 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 1, 3, 1 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 1, 1, 1 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 1, 0, 1 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 1, 1, 2, 1, 1 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 1, 1, 1, 1, 1 }));
-//Console.WriteLine(Arrays.Jump(new int[] { 1, 2, 1, 1, 1 }));
-//Console.WriteLine(Arrays.Jump2(new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 0 }));
+
+
 
 //Console.WriteLine("Permutations: ");
 //Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 1, 2, 3 }).Select(i => string.Join(",", i))));
