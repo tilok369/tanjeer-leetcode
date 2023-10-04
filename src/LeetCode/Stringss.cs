@@ -30,17 +30,5 @@ public class Stringss
 
     
 
-    public static IList<IList<string>> GroupAnagrams(string[] strs)
-    {
-        var anagrams = new Dictionary<string, IList<string>>();
-        foreach (string str in strs)
-        {
-            var sorted = string.Join("", str.OrderBy(x => x));
-            if (!anagrams.ContainsKey(sorted))
-                anagrams.Add(sorted, new List<string> { str });
-            else anagrams[sorted].Add(str);
-        }
-
-        return anagrams.Values.ToList();
-    }
+    
 }

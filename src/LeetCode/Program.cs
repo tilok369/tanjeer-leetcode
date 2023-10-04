@@ -9,6 +9,8 @@ using LeetCode.Backtracking._17;
 using LeetCode.Backtracking._22;
 using LeetCode.Backtracking._31;
 using LeetCode.Backtracking._39;
+using LeetCode.Backtracking._46;
+using LeetCode.Backtracking._47;
 using LeetCode.DFS;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
@@ -22,6 +24,7 @@ using LeetCode.HashTables._15;
 using LeetCode.HashTables._16;
 using LeetCode.HashTables._18;
 using LeetCode.HashTables._383;
+using LeetCode.HashTables._49;
 using LeetCode.LinkList;
 using LeetCode.LinkList._19;
 using LeetCode.LinkList._2;
@@ -33,6 +36,7 @@ using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
 using LeetCode.Maths._29;
 using LeetCode.Maths._43;
+using LeetCode.Maths._50;
 using LeetCode.Maths._7;
 using LeetCode.Maths._9;
 using LeetCode.Matrix._1337;
@@ -115,6 +119,14 @@ using LeetCode.TwoPointers._28;
 //MultiplyStrings.Run();
 //45
 //JumpGameTwo.Run();
+//46
+//Permutations.Run();
+//47
+//PermutationsTwo.Run();
+//49
+//Anagrams.Run();
+//50
+//Pow.Run();
 //234
 //PalindromeLinkList.Run();
 //383
@@ -144,52 +156,6 @@ using LeetCode.TwoPointers._28;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Console.WriteLine("Permutations: ");
-//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 1, 2, 3 }).Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 0, 1 }).Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 1 }).Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join("|", Recursions.Permute(new int[] { 2, 2, 1, 1 }).Select(i => string.Join(",", i))));
-
-//Console.WriteLine("Permutations ||: ");
-//Console.WriteLine(string.Join("|", Recursions.PermuteUnique(new int[] { 1, 1, 2 }).Select(i => string.Join(",", i))));
-//Console.WriteLine(string.Join("|", Recursions.PermuteUnique(new int[] { 2, 2, 1, 1 }).Select(i => string.Join(",", i))));
-
-//Console.WriteLine("Group Anagrams: ");
-//Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" }).Select(x => string.Join(",", x))));
-//Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "" }).Select(x => string.Join(",", x))));
-//Console.WriteLine(string.Join("|", Strings.GroupAnagrams(new string[] { "a" }).Select(x => string.Join(",", x))));
-
-//Console.WriteLine("Pow(x, n): ");
-//Console.WriteLine(Maths.MyPow(2.0000, 10));
-//Console.WriteLine(Maths.MyPow(2.1000, 3));
-//Console.WriteLine(Maths.MyPow(2.0000, -2));
-//Console.WriteLine(Maths.MyPowOpt(2.0000, 10));
-//Console.WriteLine(Maths.MyPowOpt(2.1000, 3));
-//Console.WriteLine(Maths.MyPowOpt(2.0000, -2));
 
 //var mat = new int[][] {
 //    new[] { 1, 2, 3 },
