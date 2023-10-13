@@ -34,6 +34,8 @@ using LeetCode.LinkList._234;
 using LeetCode.LinkList._24;
 using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
+using LeetCode.Maths._263;
+using LeetCode.Maths._264;
 using LeetCode.Maths._29;
 using LeetCode.Maths._43;
 using LeetCode.Maths._50;
@@ -42,6 +44,7 @@ using LeetCode.Maths._9;
 using LeetCode.Matrix._1337;
 using LeetCode.Matrix._1672;
 using LeetCode.Matrix._36;
+using LeetCode.Matrix._48;
 using LeetCode.Recursion;
 using LeetCode.Recursion._38;
 using LeetCode.SlidingWindow;
@@ -123,12 +126,18 @@ using LeetCode.TwoPointers._28;
 //Permutations.Run();
 //47
 //PermutationsTwo.Run();
+//48
+//RotateImage.Run();
 //49
 //Anagrams.Run();
 //50
 //Pow.Run();
 //234
 //PalindromeLinkList.Run();
+//263
+//UglyNumber.Run();
+//264
+//UglyNumber2.Run();
 //383
 //RansomNotes.Run();
 //412
@@ -157,51 +166,11 @@ using LeetCode.TwoPointers._28;
 
 
 
-//var mat = new int[][] {
-//    new[] { 1, 2, 3 },
-//    new[] { 4, 5, 6 },
-//    new[] { 7, 8, 9 }
-//};
-//Console.WriteLine("Rotate Image: ");
-//Matrix.Rotate(mat);
-//Console.WriteLine(string.Join("|", mat.Select(c => string.Join(",", c))));
 
-//var mat2 = new int[][] {
-//    new[] { 5, 1, 9, 11 },
-//    new[] { 2, 4, 8, 10 },
-//    new[] { 13, 3, 6, 7 },
-//    new[] { 15, 14, 12, 16 }
-//};
-//Console.WriteLine("Rotate Image: ");
-//Matrix.Rotate(mat2);
-//Console.WriteLine(string.Join("|", mat2.Select(c => string.Join(",", c))));
 
-//var mat3 = new int[][] {
-//    new[] { 5, 1 },
-//    new[] { 2, 4 }
-//};
-//Console.WriteLine("Rotate Image: ");
-//Matrix.Rotate(mat3);
-//Console.WriteLine(string.Join("|", mat3.Select(c => string.Join(",", c))));
 
-//var mat4 = new int[][] {
-//    new[] { 5}
-//};
-//Console.WriteLine("Rotate Image: ");
-//Matrix.Rotate(mat3);
-//Console.WriteLine(string.Join("|", mat4.Select(c => string.Join(",", c))));
 
-//Console.WriteLine("Ugly Number: ");
-//Console.WriteLine(Maths.IsUglyOpt(6));
-//Console.WriteLine(Maths.IsUglyOpt(1));
-//Console.WriteLine(Maths.IsUglyOpt(14));
-//Console.WriteLine(Maths.IsUglyOpt(23));
-//Console.WriteLine(Maths.IsUglyOpt(16));
-//Console.WriteLine(Maths.IsUglyOpt(17));
-//Console.WriteLine(Maths.IsUglyOpt(-2147483648));
 
-//Console.WriteLine("Ugly Number ||: ");
-//Console.WriteLine(Maths.NthUglyNumber(10));
 
 //Console.WriteLine("আক".Any(c => c >= 0x0980 && c <= 0x09FF));
 //Console.WriteLine("ন".Any(c => c >= 0x0980 && c <= 0x09FF));
