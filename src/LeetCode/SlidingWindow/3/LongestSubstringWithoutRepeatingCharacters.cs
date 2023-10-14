@@ -52,4 +52,28 @@ public class LongestSubstringWithoutRepeatingCharacters
 
         return longestLength;
     }
+
+    public static int LengthOfLongestSubstring2(string s)
+    {
+        Dictionary<char, int> hashTable = new Dictionary<char, int>();
+        int start = 0;
+        int length = 0;
+
+        for (int end = 0; end < s.Length; end++)
+        {
+            if (hashTable.ContainsKey(s[end]))
+            {
+                start = Math.Max(start, hashTable[s[end]] + 1);
+                hashTable[s[end]] = end;
+            }
+            else
+            {
+                hashTable.Add(s[end], end);
+            }
+
+            length = Math.Max(length, end - start + 1);
+        }
+
+        return length;
+    }
 }

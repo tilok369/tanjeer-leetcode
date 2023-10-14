@@ -23,6 +23,7 @@ using LeetCode.HashTables._13;
 using LeetCode.HashTables._15;
 using LeetCode.HashTables._16;
 using LeetCode.HashTables._18;
+using LeetCode.HashTables._217;
 using LeetCode.HashTables._383;
 using LeetCode.HashTables._49;
 using LeetCode.LinkList;
@@ -48,6 +49,9 @@ using LeetCode.Matrix._48;
 using LeetCode.Recursion;
 using LeetCode.Recursion._38;
 using LeetCode.SlidingWindow;
+using LeetCode.SlidingWindow._187;
+using LeetCode.SlidingWindow._209;
+using LeetCode.SlidingWindow._219;
 using LeetCode.SlidingWindow._3;
 using LeetCode.Stack._20;
 using LeetCode.Strings._14;
@@ -132,6 +136,14 @@ using LeetCode.TwoPointers._28;
 //Anagrams.Run();
 //50
 //Pow.Run();
+//187
+//DnaSequence.Run();
+//209
+//MinSubArraySum.Run();
+//217
+//DuplicateContains.Run();
+//219
+//NearbyDuplicate.Run();
 //234
 //PalindromeLinkList.Run();
 //263
@@ -163,49 +175,6 @@ using LeetCode.TwoPointers._28;
 
 
 
-
-
-
-
-
-
-
-
-
-//Console.WriteLine("আক".Any(c => c >= 0x0980 && c <= 0x09FF));
-//Console.WriteLine("ন".Any(c => c >= 0x0980 && c <= 0x09FF));
-//Console.WriteLine("১".Any(c => c >= 0x0980 && c <= 0x09FF));
-//Console.WriteLine("০".Any(c => c >= 0x0980 && c <= 0x09FF));
-//Console.WriteLine("sdfsd".Any(c => c >= 0x0980 && c <= 0x09FF));
-//Console.WriteLine("A".Any(c => c >= 0x0980 && c <= 0x09FF));
-//Console.WriteLine("!".Any(c => c >= 0x0980 && c <= 0x09FF));
-//Console.WriteLine("F".Any(c => c >= 0x0980 && c <= 0x09FF));
-
-//Console.WriteLine("Longest Substring Without Repeating Characters: ");
-//Console.WriteLine(HashTables.LengthOfLongestSubstring("abcabcbb"));
-//Console.WriteLine(HashTables.LengthOfLongestSubstring("bbbbb"));
-//Console.WriteLine(HashTables.LengthOfLongestSubstring("pwwkew"));
-
-//Console.WriteLine("Repeated DNA Sequences: ");
-//Console.WriteLine(String.Join(",", HashTables.FindRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT")));
-//Console.WriteLine(String.Join(",", HashTables.FindRepeatedDnaSequences("AAAAAAAAAAAAA")));
-//Console.WriteLine(String.Join(",", HashTables.FindRepeatedDnaSequences("CCCCAAAAAGGGTTT")));
-
-//Console.WriteLine("Minimum Size Subarray Sum: ");
-//Console.WriteLine(HashTables.MinSubArrayLen(7, new int[] { 2, 3, 1, 2, 4, 3 }));
-//Console.WriteLine(HashTables.MinSubArrayLen(4, new int[] { 1, 4, 4 }));
-//Console.WriteLine(HashTables.MinSubArrayLen(11, new int[] { 1, 1, 1, 1, 1, 1, 1, 1 }));
-//Console.WriteLine(HashTables.MinSubArrayLen(11, new int[] { 1, 2, 3, 4, 5 }));
-
-//Console.WriteLine(HashTables.MinSubArrayLen2(7, new int[] { 2, 3, 1, 2, 4, 3 }));
-//Console.WriteLine(HashTables.MinSubArrayLen2(4, new int[] { 1, 4, 4 }));
-//Console.WriteLine(HashTables.MinSubArrayLen2(11, new int[] { 1, 1, 1, 1, 1, 1, 1, 1 }));
-//Console.WriteLine(HashTables.MinSubArrayLen2(11, new int[] { 1, 2, 3, 4, 5}));
-
-//Console.WriteLine("Contains Duplicate II: ");
-//Console.WriteLine(HashTables.ContainsNearbyDuplicate(new int[] { 1, 2, 3, 1 }, 3));
-//Console.WriteLine(HashTables.ContainsNearbyDuplicate(new int[] { 1, 0, 1, 1 }, 1));
-//Console.WriteLine(HashTables.ContainsNearbyDuplicate(new int[] { 1, 2, 3, 1, 2, 3 }, 2));
 
 //Console.WriteLine("Maximum consecutive one’s: ");
 //Console.WriteLine(Arrays.MaxConsecutiveOnes(new int[] { 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 }));
