@@ -4,6 +4,7 @@ using LeetCode.Arrays._26;
 using LeetCode.Arrays._27;
 using LeetCode.Arrays._34;
 using LeetCode.Arrays._35;
+using LeetCode.Arrays._485;
 using LeetCode.Arrays._704;
 using LeetCode.Backtracking._17;
 using LeetCode.Backtracking._22;
@@ -24,7 +25,9 @@ using LeetCode.HashTables._15;
 using LeetCode.HashTables._16;
 using LeetCode.HashTables._18;
 using LeetCode.HashTables._217;
+using LeetCode.HashTables._242;
 using LeetCode.HashTables._383;
+using LeetCode.HashTables._438;
 using LeetCode.HashTables._49;
 using LeetCode.LinkList;
 using LeetCode.LinkList._19;
@@ -146,6 +149,8 @@ using LeetCode.TwoPointers._28;
 //NearbyDuplicate.Run();
 //234
 //PalindromeLinkList.Run();
+//242
+//ValidAnagram.Run();
 //263
 //UglyNumber.Run();
 //264
@@ -154,6 +159,10 @@ using LeetCode.TwoPointers._28;
 //RansomNotes.Run();
 //412
 //FizzBuzzs.Run();
+//438
+//FindAllAnagrams.Run();
+//485
+//MaxConsecutiveOnes.Run();
 //516
 //LongestPalindromicSubsequence.Run();
 //704
@@ -176,10 +185,7 @@ using LeetCode.TwoPointers._28;
 
 
 
-//Console.WriteLine("Maximum consecutive one’s: ");
-//Console.WriteLine(Arrays.MaxConsecutiveOnes(new int[] { 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 }));
-//Console.WriteLine(Arrays.MaxConsecutiveOnes(new int[] { 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1 }));
-//Console.WriteLine(Arrays.MaxConsecutiveOnes(new int[] { 0, 0 }));
+
 
 //Console.WriteLine("Count of sub-strings with equal consecutive 0’s and 1’s: ");
 //Console.WriteLine(StringArrays.CountSubstring("010011"));
@@ -210,11 +216,7 @@ using LeetCode.TwoPointers._28;
 //    6908, 4433, 3077, 2288, 9733, -8067, 3007, 9725, 9669, 1362, -2561, -4225, 5442, -9006, -429, 160, 
 //    -9234, -4444, 3586, -5711, -9506, -79, -4418, -4348, -5891 }, 93));
 
-//Console.WriteLine("Find All Anagrams in a String: ");
-//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("cbaebabacd", "abc")));
-//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("abab", "ab")));
-//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("baa", "aa")));
-//Console.WriteLine(String.Join(",", HashTables.FindAnagrams("ababababab", "aab")));
+
 
 //Console.WriteLine("Find the K-Beauty of a Number: ");
 //Console.WriteLine(StringArrays.DivisorSubstrings(240, 2));

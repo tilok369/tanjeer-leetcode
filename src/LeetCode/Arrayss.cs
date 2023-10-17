@@ -24,24 +24,5 @@ public class Arrayss
         return false;
     }
 
-    public static int MaxConsecutiveOnes(int[] nums)
-    {
-        var count = 0;
-        var len = 0;
-        foreach (var x in nums)
-        {
-            if (x == 1)
-            {
-                count++;
-            }
-            else
-            {
-                len = Math.Max(len, count);
-                count = 0;
-            }
-        }
-        len = Math.Max(len, count);
-
-        return len;
-    }
+    
 }
