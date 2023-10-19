@@ -56,12 +56,15 @@ using LeetCode.SlidingWindow._187;
 using LeetCode.SlidingWindow._209;
 using LeetCode.SlidingWindow._219;
 using LeetCode.SlidingWindow._3;
+using LeetCode.SlidingWindow._395;
+using LeetCode.SlidingWindow._424;
 using LeetCode.Stack._20;
 using LeetCode.Strings._14;
 using LeetCode.Strings._412;
 using LeetCode.Strings._6;
 using LeetCode.Strings._8;
 using LeetCode.TwoPointers._28;
+using LeetCode.TwoPointers._696;
 
 
 
@@ -157,14 +160,20 @@ using LeetCode.TwoPointers._28;
 //UglyNumber2.Run();
 //383
 //RansomNotes.Run();
+//395
+//LongestSubstringWithKRepeatation.Run();
 //412
 //FizzBuzzs.Run();
+//424
+//LongestRepeatingCharacterReplacement.Run();
 //438
 //FindAllAnagrams.Run();
 //485
 //MaxConsecutiveOnes.Run();
 //516
 //LongestPalindromicSubsequence.Run();
+//696
+//CountBinarySubstrings.Run();
 //704
 //BinarySearch.Run();
 //876
@@ -187,18 +196,11 @@ using LeetCode.TwoPointers._28;
 
 
 
-//Console.WriteLine("Count of sub-strings with equal consecutive 0’s and 1’s: ");
-//Console.WriteLine(StringArrays.CountSubstring("010011"));
-//Console.WriteLine(StringArrays.CountSubstring("0001110010"));
 
-//Console.WriteLine("Longest Substring with At Least K Repeating Characters: ");
-//Console.WriteLine(StringArrays.LongestSubstring("aaabb", 3));
-//Console.WriteLine(StringArrays.LongestSubstring("ababbc", 2));
-//Console.WriteLine(StringArrays.LongestSubstring("aaabbcddeababab", 3));
 
-//Console.WriteLine("Longest Repeating Character Replacement: ");
-//Console.WriteLine(StringArrays.CharacterReplacement("ABAB", 2));
-//Console.WriteLine(StringArrays.CharacterReplacement("AABABBA", 1));
+
+
+
 
 //Console.WriteLine("Maximum Average Subarray I: ");
 //Console.WriteLine(StringArrays.FindMaxAverage(new int[] { 1, 12, -5, -6, 50, 3 }, 4));
