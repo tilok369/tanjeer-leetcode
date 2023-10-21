@@ -50,14 +50,18 @@ using LeetCode.Matrix._1672;
 using LeetCode.Matrix._36;
 using LeetCode.Matrix._48;
 using LeetCode.Recursion;
+using LeetCode.Recursion._1763;
 using LeetCode.Recursion._38;
 using LeetCode.SlidingWindow;
 using LeetCode.SlidingWindow._187;
+using LeetCode.SlidingWindow._1876;
 using LeetCode.SlidingWindow._209;
 using LeetCode.SlidingWindow._219;
+using LeetCode.SlidingWindow._2269;
 using LeetCode.SlidingWindow._3;
 using LeetCode.SlidingWindow._395;
 using LeetCode.SlidingWindow._424;
+using LeetCode.SlidingWindow._643;
 using LeetCode.Stack._20;
 using LeetCode.Strings._14;
 using LeetCode.Strings._412;
@@ -172,6 +176,8 @@ using LeetCode.TwoPointers._696;
 //MaxConsecutiveOnes.Run();
 //516
 //LongestPalindromicSubsequence.Run();
+//643
+//MaximumAverageSubarray.Run();
 //696
 //CountBinarySubstrings.Run();
 //704
@@ -182,8 +188,14 @@ using LeetCode.TwoPointers._696;
 //KWeakestRowsMatrix.Run();
 //1342
 //ReduceNumberToZero.Run();
+//1763
+//LongestNiceSubstring.Run();
 //1672
 //RichestCustomerWealth.Run();
+//1876
+//GoodSubString.Run();
+//2269
+//KBeautyNumber.Run();
 
 
 
@@ -202,39 +214,15 @@ using LeetCode.TwoPointers._696;
 
 
 
-//Console.WriteLine("Maximum Average Subarray I: ");
-//Console.WriteLine(StringArrays.FindMaxAverage(new int[] { 1, 12, -5, -6, 50, 3 }, 4));
-//Console.WriteLine(StringArrays.FindMaxAverage(new int[] { 5 }, 1));
-//Console.WriteLine(StringArrays.FindMaxAverage(new int[] { 0, 1, 1, 3, 3 }, 4));
-
-//Console.WriteLine(StringArrays.FindMaxAverageOptimized(new int[] { 1, 12, -5, -6, 50, 3 }, 4));
-//Console.WriteLine(StringArrays.FindMaxAverageOptimized(new int[] { 5 }, 1));
-//Console.WriteLine(StringArrays.FindMaxAverageOptimized(new int[] { 0, 1, 1, 3, 3 }, 4));
-//Console.WriteLine(StringArrays.FindMaxAverageOptimized(new int[] { 8860, -853, 6534, 4477, -4589, 8646, 
-//    -6155, -5577, -1656, -5779, -2619, -8604, -1358, -8009, 4983, 7063, 3104, -1560, 4080, 2763, 5616, 
-//    -2375, 2848, 1394, -7173, -5225, -8244, -809, 8025, -4072, -4391, -9579, 1407, 6700, 2421, -6685, 5481, 
-//    -1732, -8892, -6645, 3077, 3287, -4149, 8701, -4393, -9070, -1777, 2237, -3253, -506, -4931, -7366, 
-//    -8132, 5406, -6300, -275, -1908, 67, 3569, 1433, -7262, -437, 8303, 4498, -379, 3054, -6285, 4203, 
-//    6908, 4433, 3077, 2288, 9733, -8067, 3007, 9725, 9669, 1362, -2561, -4225, 5442, -9006, -429, 160, 
-//    -9234, -4444, 3586, -5711, -9506, -79, -4418, -4348, -5891 }, 93));
 
 
 
-//Console.WriteLine("Find the K-Beauty of a Number: ");
-//Console.WriteLine(StringArrays.DivisorSubstrings(240, 2));
-//Console.WriteLine(StringArrays.DivisorSubstrings(430043, 2));
-//Console.WriteLine(StringArrays.DivisorSubstrings(50000, 3));
-//Console.WriteLine(StringArrays.DivisorSubstrings(500500, 3));
 
-//Console.WriteLine("Longest Nice Substring: ");
-//Console.WriteLine(StringRecursions.LongestNiceSubstring("YazaAay"));
-//Console.WriteLine(StringRecursions.LongestNiceSubstring("abABB"));
-//Console.WriteLine(StringRecursions.LongestNiceSubstring("Bb"));
-//Console.WriteLine(StringRecursions.LongestNiceSubstring("c"));
 
-//Console.WriteLine("Substrings of Size Three with Distinct Characters: ");
-//Console.WriteLine(HashTables.CountGoodSubstrings("xyzzaz"));
-//Console.WriteLine(HashTables.CountGoodSubstrings("aababcabc"));
+
+
+
+
 
 //Console.WriteLine("Minimum Difference Between Highest and Lowest of K Scores: ");
 //Console.WriteLine(StringArrays.MinimumDifference(new int[] { 90 }, 1));

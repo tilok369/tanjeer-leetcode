@@ -10,74 +10,9 @@ public class StringArrays
 
 
 
-    public static double FindMaxAverage(int[] nums, int k)
-    {
-        if (nums.Length <= k)
-            return (double)nums.Sum() / nums.Length;
+    
 
-        var maxAvg = 0.0;
-
-        for (int end = 0; end < nums.Length - k + 1; end++)
-        {
-            var avg = (double)nums.Skip(end).Take(k).Sum()/k;
-            maxAvg = Math.Max(maxAvg, avg);
-        }
-
-        return maxAvg;
-    }
-
-
-
-
-    public static double FindMaxAverageOptimized(int[] nums, int k)
-    {
-        var maxAvg = double.MinValue;
-        var currAvg = double.MinValue;
-        var sum = 0.0;
-
-        var start = 0;
-
-        if (nums.Length == 1)
-            maxAvg = nums[0];
-
-        for (int end = 0; end < nums.Length; end++)
-        {
-            sum += nums[end];
-
-            if (end >= k - 1)
-            {
-                currAvg = sum/ k;
-                maxAvg = Math.Max((double)maxAvg, (double)currAvg);
-                sum -= nums[start];
-                start++;
-            }
-        }
-
-        return nums.Length == k ? currAvg : maxAvg;
-    }
-
-    public static int DivisorSubstrings(int num, int k)
-    {
-        var numStr = num.ToString();
-
-        var start = 0;
-        var index = k;
-        var kBeauty = 0;
-        for (int end = 0; end < numStr.Length; end++)
-        {
-            index--;
-            if (index == 0)
-            {
-                var divisor = int.Parse(numStr.Substring(start, k));
-                if(divisor != 0 && num % divisor == 0)
-                    kBeauty++;
-                index++;
-                start++;
-            }
-        }
-
-        return kBeauty;
-    }
+    
 
     public static int MinimumDifference(int[] nums, int k)
     {
