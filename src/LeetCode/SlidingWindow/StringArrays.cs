@@ -14,45 +14,9 @@ public class StringArrays
 
     
 
-    public static int MinimumDifference(int[] nums, int k)
-    {
-        Array.Sort(nums);
+    
 
-        int min = int.MaxValue;
-        for (int i = 0; i <= nums.Length - k; i++)
-        {
-            var diff = nums[i + k - 1] - nums[i];
-            min = Math.Min(min, diff);
-        }
-
-        return min;
-    }
-
-    public static int MinimumRecolors(string blocks, int k)
-    {
-        var min = int.MaxValue;
-        var start = 0;
-        var recolorCount = 0;
-        var index = 0;
-        for (var end = 0; end < blocks.Length; end++)
-        {
-            if(blocks[end] == 'W')
-                recolorCount++;
-
-            index++;
-
-            if (index == k)
-            {
-                min = Math.Min(min, recolorCount);
-                if(blocks[start] == 'W')
-                    recolorCount--;
-                index--;
-                start++;
-            }
-        }
-
-        return min;
-    }
+    
 
     public static int LongestAlternatingSubarray(int[] nums, int threshold)
     {
