@@ -20,6 +20,7 @@ using LeetCode.DFS._111;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
 using LeetCode.DynamicProgramming._516;
+using LeetCode.DynamicProgramming._55;
 using LeetCode.Greedy._11;
 using LeetCode.Greedy._45;
 using LeetCode.HashTables._1;
@@ -156,6 +157,8 @@ using LeetCode.TwoPointers._696;
 //Anagrams.Run();
 //50
 //Pow.Run();
+//55
+//JumpGame.Run();
 //94
 //Inorder.Run();
 //100
