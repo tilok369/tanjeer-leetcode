@@ -2,6 +2,24 @@
 
 public class FloodFills
 {
+    public static void Run()
+    {
+        Console.WriteLine("733. Flood Fill: ");
+        var image1 = new int[][]{
+            new []{1, 1, 1 },
+            new []{ 1, 1, 0},
+            new []{ 1, 0, 1}
+          };
+        Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image1, 1, 1, 2).Select(i => string.Join(", ", i))));
+
+        Console.WriteLine("733. Flood Fill: ");
+        var image2 = new int[][]{
+            new []{0, 0, 0 },
+            new []{ 0, 0, 0}
+          };
+        Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image2, 0, 0, 0).Select(i => string.Join(", ", i))));
+    }
+
     public static int[][] FloodFill(int[][] image, int sr, int sc, int color)
     {
         var currentColor = image[sr][sc];

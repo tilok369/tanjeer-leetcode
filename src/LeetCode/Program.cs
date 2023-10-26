@@ -13,6 +13,10 @@ using LeetCode.Backtracking._39;
 using LeetCode.Backtracking._46;
 using LeetCode.Backtracking._47;
 using LeetCode.DFS;
+using LeetCode.DFS._100;
+using LeetCode.DFS._101;
+using LeetCode.DFS._104;
+using LeetCode.DFS._111;
 using LeetCode.DFS._200;
 using LeetCode.DFS._733;
 using LeetCode.DynamicProgramming._516;
@@ -70,6 +74,9 @@ using LeetCode.Strings._14;
 using LeetCode.Strings._412;
 using LeetCode.Strings._6;
 using LeetCode.Strings._8;
+using LeetCode.Tree._144;
+using LeetCode.Tree._145;
+using LeetCode.Tree._94;
 using LeetCode.TwoPointers._28;
 using LeetCode.TwoPointers._696;
 
@@ -149,8 +156,26 @@ using LeetCode.TwoPointers._696;
 //Anagrams.Run();
 //50
 //Pow.Run();
+//94
+//Inorder.Run();
+//100
+//SameTree.Run();
+//101
+//SymmetricTree.Run();
+//104
+//MaxDepthTree.Run();
+//111
+//MinDepthTree.Run();
+//144
+//PreOrder.Run();
+//145
+//Postorder.Run();
 //187
 //DnaSequence.Run();
+//200
+//NumberOfIslands.Run();
+//206
+//ReverseLinkList.Run();
 //209
 //MinSubArraySum.Run();
 //217
@@ -185,6 +210,8 @@ using LeetCode.TwoPointers._696;
 //CountBinarySubstrings.Run();
 //704
 //BinarySearch.Run();
+//733
+//FloodFills.Run();
 //876
 //MiddleNodeLinkList.Run();
 //1337
@@ -207,154 +234,4 @@ using LeetCode.TwoPointers._696;
 //MinRecolors.Run();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Console.WriteLine("Binary Tree Traversal: ");
-//var tree1 = new TreeNode(1);
-//tree1.left = new TreeNode(2);
-//tree1.right = new TreeNode(3);
-//tree1.left.left = new TreeNode(4);
-//tree1.left.right = new TreeNode(5);
-//Console.WriteLine(string.Join(",", Tree.InorderTraversal(tree1)));
-//Console.WriteLine(string.Join(",", Tree.PreorderTraversal(tree1)));
-//Console.WriteLine(string.Join(",", Tree.PostorderTraversal(tree1)));
-
-//var tree2 = new TreeNode(1);
-//tree2.right = new TreeNode(2);
-//tree2.right.left = new TreeNode(3);
-//Console.WriteLine(string.Join(",", Tree.InorderTraversal(tree2)));
-//Console.WriteLine(string.Join(",", Tree.PreorderTraversal(tree2)));
-//Console.WriteLine(string.Join(",", Tree.PostorderTraversal(tree2)));
-
-//Console.WriteLine("Same Tree: ");
-//var tree1 = new TreeNode(1);
-//tree1.left = new TreeNode(2);
-//tree1.right = new TreeNode(3);
-//var tree2 = new TreeNode(1);
-//tree2.left = new TreeNode(2);
-//tree2.right = new TreeNode(3);
-//Console.WriteLine(Tree.IsSameTree(tree1, tree2));
-
-//var tree3 = new TreeNode(1);
-//tree3.left = new TreeNode(2);
-//var tree4 = new TreeNode(1);
-//tree4.right = new TreeNode(2);
-//Console.WriteLine(Tree.IsSameTree(tree3, tree4));
-
-//Console.WriteLine("Symmetric Tree: ");
-//var tree1 = new TreeNode(1);
-//tree1.left = new TreeNode(2);
-//tree1.right = new TreeNode(2);
-//tree1.left.left = new TreeNode(3);
-//tree1.left.right = new TreeNode(4);
-//tree1.right.left = new TreeNode(4);
-//tree1.right.right = new TreeNode(3);
-
-//var tree2 = new TreeNode(1);
-//tree2.left = new TreeNode(2);
-//tree2.right = new TreeNode(2);
-//tree2.left.right = new TreeNode(3);
-//tree2.right.right = new TreeNode(3);
-
-//Console.WriteLine(Tree.IsSymmetric(tree1));
-//Console.WriteLine(Tree.IsSymmetric(tree2));
-
-//Console.WriteLine("200. Number of Islands: ");
-//var grid1 = new char[][]{
-//    new []{'1', '1', '1', '1', '0' },
-//    new []{ '1', '1', '0', '1', '0'},
-//    new []{ '1', '1', '0', '0', '0'},
-//    new []{ '0', '0', '0', '0', '0'}
-//  };
-//Console.WriteLine(NumberOfIslands.NumIslands(grid1));
-
-//var grid2 = new char[][]{
-//    new []{'1', '1', '0', '0', '0' },
-//    new []{ '1', '1', '0', '0', '0'},
-//    new []{ '0', '0', '1', '0', '0'},
-//    new []{ '0', '0', '0', '1', '1'}
-//  };
-//Console.WriteLine(NumberOfIslands.NumIslands(grid2));
-
-//Console.WriteLine("733. Flood Fill: ");
-//var image1 = new int[][]{
-//    new []{1, 1, 1 },
-//    new []{ 1, 1, 0},
-//    new []{ 1, 0, 1}
-//  };
-//Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image1, 1, 1, 2).Select(i => string.Join(", ", i))));
-
-//Console.WriteLine("733. Flood Fill: ");
-//var image2 = new int[][]{
-//    new []{0, 0, 0 },
-//    new []{ 0, 0, 0}
-//  };
-//Console.WriteLine(string.Join("\n", FloodFills.FloodFill(image2, 0, 0, 0).Select(i => string.Join(", ", i))));
-
-//var i5 = new ListNode(5);
-//var i4 = new ListNode(4, i5);
-//var i3 = new ListNode(3, i4);
-//var i2 = new ListNode(2, i3);
-//var i1 = new ListNode(1, i2);
-
-//var i7 = new ListNode(7);
-//var i6 = new ListNode(6, i7);
-
-//Console.WriteLine("206. Reverse Linked List: ");
-//PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i1));
-//PalindromeLinkList.PrintList(ReverseLinkList.ReverseList(i6));
-
 Console.ReadKey(true);
-
-
-
-//static int calculateCost(List<int> arr, int threshold)
-//{
-//    var costDp = new int[arr.Count,threshold + 1];
-
-//    //initialize DP with max value
-//    for (int x = 0; x < arr.Count; x++)
-//    {
-//        for (int y = 0; y < threshold + 1; y++)
-//        {
-//            costDp[x,y] = int.MaxValue;
-//        }
-//    }        
-
-//    //calculate DP for each cell
-//    for (var i = 0; i < arr.Count; i++)
-//    {
-//        for (int j = 1; j <= threshold; j++)
-//        {
-//            costDp[i, j] = arr.Skip(j - 1).Take(j).Max();
-//        }
-//    }
-
-//    var minCost = int.MaxValue;
-
-//    for (var i = 0; i < arr.Count; i++)
-//    {
-//        var size= 1;
-//        var costSum = 0;
-//        while (size <= arr.Count)
-//        {
-//            costSum += costDp[i, size];
-//            size++;
-//        }
-//        minCost = Math.Min(minCost, costSum);
-//    }
-
-//    return minCost;
-//}

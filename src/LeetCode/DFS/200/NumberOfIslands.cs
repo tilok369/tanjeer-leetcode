@@ -2,6 +2,26 @@
 
 public class NumberOfIslands
 {
+    public static void Run()
+    {
+        Console.WriteLine("200. Number of Islands: ");
+        var grid1 = new char[][]{
+            new []{'1', '1', '1', '1', '0' },
+            new []{ '1', '1', '0', '1', '0'},
+            new []{ '1', '1', '0', '0', '0'},
+            new []{ '0', '0', '0', '0', '0'}
+          };
+        Console.WriteLine(NumberOfIslands.NumIslands(grid1));
+
+        var grid2 = new char[][]{
+            new []{'1', '1', '0', '0', '0' },
+            new []{ '1', '1', '0', '0', '0'},
+            new []{ '0', '0', '1', '0', '0'},
+            new []{ '0', '0', '0', '1', '1'}
+          };
+        Console.WriteLine(NumberOfIslands.NumIslands(grid2));
+    }
+
     public static int NumIslands(char[][] grid)
     {
         var row = grid.Length;
