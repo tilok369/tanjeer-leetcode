@@ -2,6 +2,7 @@
 using LeetCode;
 using LeetCode.Arrays._26;
 using LeetCode.Arrays._27;
+using LeetCode.Arrays._2765;
 using LeetCode.Arrays._34;
 using LeetCode.Arrays._35;
 using LeetCode.Arrays._485;
@@ -235,6 +236,8 @@ using LeetCode.TwoPointers._696;
 //KBeautyNumber.Run();
 //2379
 //MinRecolors.Run();
+//2765
+//LongestAlternatingSubarray.Run();
 
 
 Console.ReadKey(true);
