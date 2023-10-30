@@ -5,37 +5,36 @@ public class LongestAlternatingSubarray
     public static void Run()
     {
         Console.WriteLine(LongestAlternatingSubarray.AlternatingSubarray(new int[] { 2, 3, 4, 3, 4 }));
+        Console.WriteLine(LongestAlternatingSubarray.AlternatingSubarray(new int[] { 4, 5, 6 }));
     }
 
     public static int AlternatingSubarray(int[] nums)
     {
-        var start = 0;
-        var end = 0;
-        var max = 0;
-        var started = false;
-        var threshold = 1;
+        var len = nums.Length;
+        if (len == 1)
+            return -1;
 
-        for (; end < nums.Length; end++)
-        {
-            if (nums[end] % 2 == 0 && nums[end] <= threshold && !started)
+        var size = 0;
+
+        for (var i = 0; i < len; i++)
+        { 
+            var prev = nums[i];
+            var diff = 1;
+            var tempSize = 0;
+            for (int j = i + 1; j < len; j++)
             {
-                start = end;
-                started = true;
-            }
-            else if (started && (nums[end] % 2 != (end - start) % 2 || nums[end] > threshold))
-            {
-                max = Math.Max(max, end - start);
-                started = false;
-                if (nums[end] % 2 == 0 && nums[end] <= threshold)
+                if (nums[j] - prev == diff)
                 {
-                    start = end;
-                    started = true;
+                    tempSize = j - i + 1;
+                    prev = nums[j];
+                    diff *= -1;
                 }
+                else
+                    break;
             }
+            size = Math.Max(size, tempSize);
         }
-        if (started)
-            max = Math.Max(max, end - start);
 
-        return max;
+        return size == 0 ? -1 : size;
     }
 }
