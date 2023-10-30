@@ -22,6 +22,7 @@ using LeetCode.DFS._200;
 using LeetCode.DFS._733;
 using LeetCode.DynamicProgramming._516;
 using LeetCode.DynamicProgramming._55;
+using LeetCode.DynamicProgramming._70;
 using LeetCode.Greedy._11;
 using LeetCode.Greedy._45;
 using LeetCode.HashTables._1;
@@ -160,6 +161,8 @@ using LeetCode.TwoPointers._696;
 //Pow.Run();
 //55
 //JumpGame.Run();
+//70
+ClimbingStairs.Run();
 //94
 //Inorder.Run();
 //100
