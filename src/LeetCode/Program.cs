@@ -73,6 +73,7 @@ using LeetCode.SlidingWindow._395;
 using LeetCode.SlidingWindow._424;
 using LeetCode.SlidingWindow._643;
 using LeetCode.Stack._20;
+using LeetCode.Strings._125;
 using LeetCode.Strings._14;
 using LeetCode.Strings._412;
 using LeetCode.Strings._6;
@@ -162,7 +163,7 @@ using LeetCode.TwoPointers._696;
 //55
 //JumpGame.Run();
 //70
-ClimbingStairs.Run();
+//ClimbingStairs.Run();
 //94
 //Inorder.Run();
 //100
@@ -173,6 +174,8 @@ ClimbingStairs.Run();
 //MaxDepthTree.Run();
 //111
 //MinDepthTree.Run();
+//125
+ValidPalindrom.Run();
 //144
 //PreOrder.Run();
 //145
