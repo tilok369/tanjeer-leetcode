@@ -6,7 +6,7 @@ public class RemoveArrayDuplicates
     {
         Console.WriteLine("Remove Duplicates from Sorted Array: ");
         Console.WriteLine(RemoveArrayDuplicates.RemoveDuplicates(new[] { 1, 1, 2 }));
-        Console.WriteLine(RemoveArrayDuplicates.RemoveDuplicates(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }));
+        Console.WriteLine(RemoveArrayDuplicates.RemoveDuplicates(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 })); 
         Console.WriteLine(RemoveArrayDuplicates.RemoveDuplicates(new[] { 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5 }));
     }
 

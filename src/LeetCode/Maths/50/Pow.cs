@@ -5,12 +5,12 @@ public class Pow
     public static void Run()
     {
         Console.WriteLine("50. Pow(x, n): ");
-        Console.WriteLine(Pow.MyPow(2.0000, 10));
-        Console.WriteLine(Pow.MyPow(2.1000, 3));
-        Console.WriteLine(Pow.MyPow(2.0000, -2));
-        Console.WriteLine(Pow.MyPowOpt(2.0000, 10));
+        // Console.WriteLine(Pow.MyPow(2.0000, 10));
+        // Console.WriteLine(Pow.MyPow(2.1000, 3));
+        // Console.WriteLine(Pow.MyPow(2.0000, -2));
+        //Console.WriteLine(Pow.MyPowOpt(2.0000, 10));
         Console.WriteLine(Pow.MyPowOpt(2.1000, 3));
-        Console.WriteLine(Pow.MyPowOpt(2.0000, -2));
+        //Console.WriteLine(Pow.MyPowOpt(2.0000, -2));
     }
 
     public static double MyPow(double x, int n)

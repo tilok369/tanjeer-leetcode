@@ -5,11 +5,12 @@ public class DivideTwoIntegers
     public static void Run()
     {
         Console.WriteLine("29. Divide Two Integers: ");
-        Console.WriteLine(DivideTwoIntegers.Divide(10, 3));
+        Console.WriteLine(DivideTwoIntegers.Divide(43, 3));
         Console.WriteLine(DivideTwoIntegers.Divide(7, -3));
         Console.WriteLine(DivideTwoIntegers.Divide(33, 2));
     }
 
+    
     public static int Divide(int dividend, int divisor)
     {
         if (divisor == 0) return int.MaxValue;
