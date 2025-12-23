@@ -75,8 +75,11 @@ using LeetCode.SlidingWindow._643;
 using LeetCode.Stack._20;
 using LeetCode.Strings._125;
 using LeetCode.Strings._14;
+using LeetCode.Strings._168;
+using LeetCode.Strings._171;
 using LeetCode.Strings._412;
 using LeetCode.Strings._6;
+using LeetCode.Strings._67;
 using LeetCode.Strings._8;
 using LeetCode.Tree._144;
 using LeetCode.Tree._145;
@@ -162,6 +165,10 @@ using LeetCode.TwoPointers._696;
 //Pow.Run();
 //55
 //JumpGame.Run();
+//58
+//LengthLastWord.Run();
+//67
+//BinaryAddition.Run();
 //70
 //ClimbingStairs.Run();
 //94
@@ -175,11 +182,15 @@ using LeetCode.TwoPointers._696;
 //111
 //MinDepthTree.Run();
 //125
-ValidPalindrom.Run();
+//ValidPalindrom.Run();
 //144
 //PreOrder.Run();
 //145
 //Postorder.Run();
+//168
+//ExcelSheetColumnTitle.Run();
+//171
+ExcelTitleToNumber.Run();
 //187
 //DnaSequence.Run();
 //200
