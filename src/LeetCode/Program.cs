@@ -31,8 +31,10 @@ using LeetCode.HashTables._13;
 using LeetCode.HashTables._15;
 using LeetCode.HashTables._16;
 using LeetCode.HashTables._18;
+using LeetCode.HashTables._205;
 using LeetCode.HashTables._217;
 using LeetCode.HashTables._242;
+using LeetCode.HashTables._290;
 using LeetCode.HashTables._383;
 using LeetCode.HashTables._438;
 using LeetCode.HashTables._49;
@@ -190,11 +192,13 @@ using LeetCode.TwoPointers._696;
 //168
 //ExcelSheetColumnTitle.Run();
 //171
-ExcelTitleToNumber.Run();
+//ExcelTitleToNumber.Run();
 //187
 //DnaSequence.Run();
 //200
 //NumberOfIslands.Run();
+//205
+//IsomorphicStrings.Run();
 //206
 //ReverseLinkList.Run();
 //209
@@ -211,6 +215,8 @@ ExcelTitleToNumber.Run();
 //UglyNumber.Run();
 //264
 //UglyNumber2.Run();
+//290
+WordPattern.Run();
 //383
 //RansomNotes.Run();
 //395
