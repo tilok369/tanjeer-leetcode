@@ -75,6 +75,7 @@ using LeetCode.SlidingWindow._395;
 using LeetCode.SlidingWindow._424;
 using LeetCode.SlidingWindow._643;
 using LeetCode.Stack._20;
+using LeetCode.Stack._71;
 using LeetCode.Strings._125;
 using LeetCode.Strings._14;
 using LeetCode.Strings._168;
@@ -175,6 +176,8 @@ using LeetCode.TwoPointers._696;
 //BinaryAddition.Run();
 //70
 //ClimbingStairs.Run();
+//71
+PathSimplification.Run();
 //94
 //Inorder.Run();
 //100
@@ -222,7 +225,7 @@ using LeetCode.TwoPointers._696;
 //344
 //StringReversal.Run();
 //345
-VowelReversal.Run();
+//VowelReversal.Run();
 //383
 //RansomNotes.Run();
 //395
