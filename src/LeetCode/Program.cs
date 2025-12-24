@@ -87,6 +87,8 @@ using LeetCode.Tree._144;
 using LeetCode.Tree._145;
 using LeetCode.Tree._94;
 using LeetCode.TwoPointers._28;
+using LeetCode.TwoPointers._344;
+using LeetCode.TwoPointers._345;
 using LeetCode.TwoPointers._696;
 
 
@@ -216,7 +218,11 @@ using LeetCode.TwoPointers._696;
 //264
 //UglyNumber2.Run();
 //290
-WordPattern.Run();
+//WordPattern.Run();
+//344
+//StringReversal.Run();
+//345
+VowelReversal.Run();
 //383
 //RansomNotes.Run();
 //395
