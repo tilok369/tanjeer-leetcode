@@ -63,6 +63,7 @@ using LeetCode.Recursion._1763;
 using LeetCode.Recursion._38;
 using LeetCode.SlidingWindow;
 using LeetCode.SlidingWindow._1423;
+using LeetCode.SlidingWindow._1652;
 using LeetCode.SlidingWindow._187;
 using LeetCode.SlidingWindow._1876;
 using LeetCode.SlidingWindow._1984;
@@ -70,6 +71,7 @@ using LeetCode.SlidingWindow._209;
 using LeetCode.SlidingWindow._219;
 using LeetCode.SlidingWindow._2269;
 using LeetCode.SlidingWindow._2379;
+using LeetCode.SlidingWindow._2932;
 using LeetCode.SlidingWindow._3;
 using LeetCode.SlidingWindow._395;
 using LeetCode.SlidingWindow._424;
@@ -177,7 +179,7 @@ using LeetCode.TwoPointers._696;
 //70
 //ClimbingStairs.Run();
 //71
-PathSimplification.Run();
+//PathSimplification.Run();
 //94
 //Inorder.Run();
 //100
@@ -256,10 +258,12 @@ PathSimplification.Run();
 //ReduceNumberToZero.Run();
 //1423
 //MaxPointsFromCards.Run();
-//1763
-//LongestNiceSubstring.Run();
+//1652
+//BombDefuser.Run();
 //1672
 //RichestCustomerWealth.Run();
+//1763
+//LongestNiceSubstring.Run();
 //1876
 //GoodSubString.Run();
 //1984
@@ -270,6 +274,8 @@ PathSimplification.Run();
 //MinRecolors.Run();
 //2765
 //LongestAlternatingSubarray.Run();
+//2932
+MaximumStrongPair.Run();
 
 
 Console.ReadKey(true);
