@@ -4,6 +4,7 @@ using LeetCode.Arrays._26;
 using LeetCode.Arrays._27;
 using LeetCode.Arrays._2765;
 using LeetCode.Arrays._34;
+using LeetCode.Arrays._349;
 using LeetCode.Arrays._35;
 using LeetCode.Arrays._485;
 using LeetCode.Arrays._704;
@@ -233,13 +234,15 @@ using LeetCode.TwoPointers._696;
 //264
 //UglyNumber2.Run();
 //268
-MissingNumber.Run();
+//MissingNumber.Run();
 //290
 //WordPattern.Run();
 //344
 //StringReversal.Run();
 //345
 //VowelReversal.Run();
+//349
+ArrayIntersection.Run();
 //383
 //RansomNotes.Run();
 //395
