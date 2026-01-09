@@ -30,6 +30,7 @@ using LeetCode.HashTables._12;
 using LeetCode.HashTables._13;
 using LeetCode.HashTables._15;
 using LeetCode.HashTables._16;
+using LeetCode.HashTables._169;
 using LeetCode.HashTables._18;
 using LeetCode.HashTables._205;
 using LeetCode.HashTables._217;
@@ -39,6 +40,8 @@ using LeetCode.HashTables._383;
 using LeetCode.HashTables._438;
 using LeetCode.HashTables._49;
 using LeetCode.LinkList;
+using LeetCode.LinkList._141;
+using LeetCode.LinkList._160;
 using LeetCode.LinkList._19;
 using LeetCode.LinkList._2;
 using LeetCode.LinkList._206;
@@ -49,6 +52,7 @@ using LeetCode.LinkList._876;
 using LeetCode.Maths._1342;
 using LeetCode.Maths._263;
 using LeetCode.Maths._264;
+using LeetCode.Maths._268;
 using LeetCode.Maths._29;
 using LeetCode.Maths._43;
 using LeetCode.Maths._50;
@@ -192,12 +196,18 @@ using LeetCode.TwoPointers._696;
 //MinDepthTree.Run();
 //125
 //ValidPalindrom.Run();
+//141
+//LinkListCycle.Run();
 //144
 //PreOrder.Run();
 //145
 //Postorder.Run();
+//160
+//LinkListIntersection.Run();
 //168
 //ExcelSheetColumnTitle.Run();
+//169
+//MajorityElement.Run();
 //171
 //ExcelTitleToNumber.Run();
 //187
@@ -222,6 +232,8 @@ using LeetCode.TwoPointers._696;
 //UglyNumber.Run();
 //264
 //UglyNumber2.Run();
+//268
+MissingNumber.Run();
 //290
 //WordPattern.Run();
 //344
@@ -275,7 +287,7 @@ using LeetCode.TwoPointers._696;
 //2765
 //LongestAlternatingSubarray.Run();
 //2932
-MaximumStrongPair.Run();
+//MaximumStrongPair.Run();
 
 
 Console.ReadKey(true);
